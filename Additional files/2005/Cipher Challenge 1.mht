@@ -1,0 +1,1214 @@
+From: "Saved by Windows Internet Explorer 7"
+Subject: University of Southampton Cipher Challenge
+Date: Sat, 2 Jan 2010 20:27:29 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_06BF_01CA8BEA.01176900"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.0.6001.18049
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/thechallenge1.html
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>University of =
+Southampton Cipher Challenge</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<META http-equiv=3DCACHE-CONTROL content=3DNO-CACHE>
+<META http-equiv=3DPRAGMA content=3DNO-CACHE>
+<META http-equiv=3DExpires content=3D"Mon, 12 Sep 2005 12:17:43 GMT">
+<STYLE type=3Dtext/css>@import url( page3.css );
+</STYLE>
+<!-- #BeginBehavior MM_swapImage20 -->
+<SCRIPT language=3DJavaScript type=3Dtext/javascript>
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=3Ddocument; =
+if((p=3Dn.indexOf("?"))>0&&parent.frames.length) {
+    d=3Dparent.frames[n.substring(p+1)].document; n=3Dn.substring(0,p);}
+  if(!(x=3Dd[n])&&d.all) x=3Dd.all[n]; for =
+(i=3D0;!x&&i<d.forms.length;i++) x=3Dd.forms[i][n];
+  for(i=3D0;!x&&d.layers&&i<d.layers.length;i++) =
+x=3DMM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=3Dd.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=3D0,x,a=3DMM_swapImage.arguments; document.MM_sr=3Dnew Array; =
+for(i=3D0;i<(a.length-2);i+=3D3)
+   if ((x=3DMM_findObj(a[i]))!=3Dnull){document.MM_sr[j++]=3Dx; =
+if(!x.oSrc) x.oSrc=3Dx.src; x.src=3Da[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=3Ddocument.MM_sr; =
+for(i=3D0;a&&i<a.length&&(x=3Da[i])&&x.oSrc;i++) x.src=3Dx.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+ var d=3Ddocument; if(d.images){ if(!d.MM_p) d.MM_p=3Dnew Array();
+   var i,j=3Dd.MM_p.length,a=3DMM_preloadImages.arguments; for(i=3D0; =
+i<a.length; i++)
+   if (a[i].indexOf("#")!=3D0){ d.MM_p[j]=3Dnew Image; =
+d.MM_p[j++].src=3Da[i];}}
+}
+//-->
+</SCRIPT>
+
+<META content=3D"MSHTML 6.00.6001.18349" name=3DGENERATOR></HEAD>
+<BODY=20
+onload=3D"MM_preloadImages('images/Enlist.jpg',&#13;&#10;'images/Enlist_R=
+oll.jpg',&#13;&#10;'images/About.jpg',&#13;&#10;'images/About_roll.jpg',&=
+#13;&#10;'images/Cipher_Room.jpg',&#13;&#10;'images/Cipher_Room_Roll.jpg'=
+,&#13;&#10;'images/Boats_Log.jpg',&#13;&#10;'images/Boats_Log_Roll.jpg',&=
+#13;&#10;'images/Standing_Orders.jpg',&#13;&#10;'images/Standing_Orders_R=
+oll.jpg',&#13;&#10;'images/Honours_Board.jpg',&#13;&#10;'images/Honours_B=
+oard_Roll.jpg',&#13;&#10;'images/Submit.jpg',&#13;&#10;'images/Submit_Rol=
+l.jpg',&#13;&#10;'images/0_over.gif',&#13;&#10;'images/0_up.gif',&#13;&#1=
+0;'images/1_over.gif',&#13;&#10;'images/1_up.gif',&#13;&#10;'images/2_ove=
+r.gif',&#13;&#10;'images/2_up.gif',&#13;&#10;'images/3_over.gif',&#13;&#1=
+0;'images/3_up.gif',&#13;&#10;'images/4_over.gif',&#13;&#10;'images/4_up.=
+gif',&#13;&#10;'images/5_over.gif',&#13;&#10;'images/5_up.gif',&#13;&#10;=
+'images/6_over.gif',&#13;&#10;'images/6_up.gif',&#13;&#10;'images/7_over.=
+gif',&#13;&#10;'images/7_up.gif',&#13;&#10;'images/8_over.gif',&#13;&#10;=
+'images/8_up.gif',&#13;&#10;'images/9_over.gif',&#13;&#10;'images/9_up.gi=
+f')">
+<DIV id=3Dtop>
+<DIV id=3Dnavbar>
+<TABLE width=3D400 align=3Dcenter summary=3DNavigation_Bar_Top>
+  <TBODY>
+  <TR vAlign=3Dcenter align=3Dmiddle>
+    <TD vAlign=3Dcenter align=3Dleft width=3D300 height=3D105><A=20
+      onmouseover=3D"MM_swapImage('Email','','images/Email_On.jpg',1);"=20
+      onmouseout=3DMM_swapImgRestore() =
+href=3D"mailto:cipher@soton.ac.uk"><IMG=20
+      height=3D105 alt=3D"Email us"=20
+      =
+src=3D"http://www.maths.soton.ac.uk/cipher2005/images/Email_Off.jpg"=20
+      width=3D90 border=3D0 name=3DEmail></IMG></A> </TD>
+    <TD vAlign=3Dcenter align=3Dmiddle width=3D250 height=3D100><A=20
+      =
+onmouseover=3D"MM_swapImage('About','','images/About_roll.jpg',1);"=20
+      onmouseout=3DMM_swapImgRestore()=20
+      =
+href=3D"http://www.maths.soton.ac.uk/cipher2005/For_teachers.html"><IMG=20
+      height=3D100 alt=3D"About the Challenge"=20
+      src=3D"http://www.maths.soton.ac.uk/cipher2005/images/About.jpg" =
+width=3D250=20
+      border=3D0 name=3DAbout></IMG></A> </TD>
+    <TD vAlign=3Dcenter align=3Dmiddle width=3D91 height=3D80><A=20
+      =
+onmouseover=3D"MM_swapImage('Enlist','','images/Enlist_Roll.jpg',1);"=20
+      onmouseout=3DMM_swapImgRestore()=20
+      =
+href=3D"http://www.maths.soton.ac.uk/cipher2005/cipherreg/form.php"><IMG =
+
+      height=3D80 alt=3D"Register for the Challenge"=20
+      =
+src=3D"http://www.maths.soton.ac.uk/cipher2005/images/Enlist_Off.jpg"=20
+      width=3D50 border=3D0 name=3DEnlist></IMG></A> </TD>
+    <TD vAlign=3Dcenter align=3Dmiddle width=3D91 height=3D80><IMG =
+height=3D80 alt=3D""=20
+      =
+src=3D"http://www.maths.soton.ac.uk/cipher2005/images/Cipher_Room_On.jpg"=
+=20
+      width=3D50 border=3D0 name=3DCipherRoom></IMG> </TD>
+    <TD vAlign=3Dcenter align=3Dmiddle width=3D91 height=3D80><A=20
+      =
+onmouseover=3D"MM_swapImage('BoatsLog','','images/Boats_Log_Roll.jpg',1);=
+"=20
+      onmouseout=3DMM_swapImgRestore()=20
+      =
+href=3D"http://www.maths.soton.ac.uk/cipher2005/homepage.html"><IMG=20
+      height=3D80 alt=3D"The Boat's Log"=20
+      =
+src=3D"http://www.maths.soton.ac.uk/cipher2005/images/Boats_Log_Off.jpg" =
+
+      width=3D50 border=3D0 name=3DBoatsLog></IMG></A> </TD>
+    <TD vAlign=3Dcenter align=3Dmiddle width=3D91 height=3D80><A=20
+      =
+onmouseover=3D"MM_swapImage('HonoursBoard','','images/Honours_Board_Roll.=
+jpg',1);"=20
+      onmouseout=3DMM_swapImgRestore()=20
+      =
+href=3D"http://www.maths.soton.ac.uk/cipher2005/honoursboard.html"><IMG=20
+      height=3D80 alt=3D"The Championship leader boards"=20
+      =
+src=3D"http://www.maths.soton.ac.uk/cipher2005/images/Honours_Board_Off.j=
+pg"=20
+      width=3D50 border=3D0 name=3DHonoursBoard></IMG></A> </TD>
+    <TD vAlign=3Dcenter align=3Dmiddle width=3D91 height=3D80><A=20
+      =
+onmouseover=3D"MM_swapImage('StandingOrders','','images/Standing_Orders_R=
+oll.jpg',1);"=20
+      onmouseout=3DMM_swapImgRestore()=20
+      href=3D"http://www.maths.soton.ac.uk/cipher2005/rules.html"><IMG =
+height=3D80=20
+      alt=3D"The competition rules"=20
+      =
+src=3D"http://www.maths.soton.ac.uk/cipher2005/images/Standing_Orders_Off=
+.jpg"=20
+      width=3D50 border=3D0 name=3DStandingOrders></IMG></A> </TD>
+    <TD vAlign=3Dcenter align=3Dmiddle width=3D50 height=3D60><IMG =
+height=3D20 alt=3D""=20
+      src=3D"http://www.maths.soton.ac.uk/cipher2005/images/spacer.gif" =
+width=3D50=20
+      align=3Dmiddle> </TD>
+    <TD vAlign=3Dcenter align=3Dmiddle width=3D91 height=3D80><A=20
+      =
+onmouseover=3D"MM_swapImage('Submit','','images/Submit_Roll.jpg',1);"=20
+      onmouseout=3DMM_swapImgRestore()=20
+      href=3D"http://www.maths.soton.ac.uk/cipher2005/submit.html"><IMG =
+height=3D80=20
+      alt=3D"Submit an entry"=20
+      =
+src=3D"http://www.maths.soton.ac.uk/cipher2005/images/Submit_Off.jpg"=20
+      width=3D50 border=3D0 name=3DSubmit></IMG></A> =
+</TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV id=3Dpagebody>
+<DIV id=3Dleftcontent>
+<DIV id=3DchallengeA><B>Date:</B>March 27th 1959 <BR><B>To:</B> Captain =
+Omen=20
+<BR><B>From:</B> Prof. Vandiver <BR><B>Subject:</B> Intercept =
+<BR><BR>The Soviet=20
+message contained valuable information and a tantalising clue concerning =
+the=20
+object we are required to recover. The K3 is believed to be the first =
+serving=20
+nuclear powered boat in the Soviet fleet and its captain is an =
+experienced=20
+officer. The choice of this boat may indicate that the Soviets intend to =
+stay=20
+submersed for some time, and this confirms my suspicion that they do not =
+have=20
+good intelligence concerning the location of the object. Given its =
+apparent=20
+designation as a beacon I am puzzled that there is no signal for us to =
+follow. I=20
+would recommend monitoring the spectrum for unexpected activity near the =
+crash=20
+site. Our radio room sent me the enclosed signal WHICH IS believed to =
+have been=20
+transmitted by the K3 prior to diving. As you predicted it is encrypted, =
+but it=20
+appears, only lightly, and I will endeavour to decipher it quickly. =
+Meanwhile I=20
+would recommend that we improve security by hiding the word structure of =
+our=20
+messages using the standard 5 letter block format. </DIV></DIV>
+<DIV id=3Drightcontent>
+<DIV id=3DchallengeB><A=20
+onmouseover=3D"MM_swapImage('Solution1B','','images/Challenge1B_Roll.gif'=
+,1);"=20
+onmouseout=3DMM_swapImgRestore()=20
+href=3D"http://www.maths.soton.ac.uk/cipher2005/Challenge1.txt"><IMG=20
+alt=3D"Solution 1 part B"=20
+src=3D"http://www.maths.soton.ac.uk/cipher2005/images/Solution1B.gif" =
+width=3D320=20
+name=3DSolution1B></IMG></A> </DIV>
+<DIV id=3DrightButt>
+<TABLE cellSpacing=3D5 cellPadding=3D5 width=3D"90%" align=3Dcenter =
+border=3D0>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dcenter align=3Dmiddle><A=20
+      =
+onmouseover=3D"MM_swapImage('Challenge1','','images/0_over.gif',1)"=20
+      onmouseout=3DMM_swapImgRestore()=20
+      =
+href=3D"http://www.maths.soton.ac.uk/cipher2005/thechallenge0.html"=20
+      target=3D_self><IMG height=3D37 alt=3D"Challenge 0"=20
+      src=3D"http://www.maths.soton.ac.uk/cipher2005/images/0_up.gif" =
+width=3D37=20
+      border=3D0 name=3DChallenge1></A></TD></TR>
+  <TR>
+    <TD vAlign=3Dcenter align=3Dmiddle><IMG height=3D37 alt=3D"The =
+Challenge 1"=20
+      src=3D"http://www.maths.soton.ac.uk/cipher2005/images/1_over.gif" =
+width=3D37=20
+      border=3D0 name=3DChallenge2></TD></TR>
+  <TR>
+    <TD vAlign=3Dcenter align=3Dmiddle><A=20
+      =
+onmouseover=3D"MM_swapImage('Challenge3','','images/2_over.gif',1)"=20
+      onmouseout=3DMM_swapImgRestore()=20
+      =
+href=3D"http://www.maths.soton.ac.uk/cipher2005/thechallenge2.html"=20
+      target=3D_self><IMG height=3D37 alt=3D"The Challenge 2"=20
+      src=3D"http://www.maths.soton.ac.uk/cipher2005/images/2_up.gif" =
+width=3D37=20
+      border=3D0 name=3DChallenge3></A></TD></TR>
+  <TR>
+    <TD vAlign=3Dcenter align=3Dmiddle><A=20
+      =
+onmouseover=3D"MM_swapImage('Challenge4','','images/3_over.gif',1)"=20
+      onmouseout=3DMM_swapImgRestore()=20
+      =
+href=3D"http://www.maths.soton.ac.uk/cipher2005/thechallenge3.html"=20
+      target=3D_self><IMG height=3D37 alt=3D"The Challenge 3"=20
+      src=3D"http://www.maths.soton.ac.uk/cipher2005/images/3_up.gif" =
+width=3D37=20
+      border=3D0 name=3DChallenge4></A></TD></TR>
+  <TR>
+    <TD vAlign=3Dcenter align=3Dmiddle><A=20
+      =
+onmouseover=3D"MM_swapImage('Challenge5','','images/4_over.gif',1)"=20
+      onmouseout=3DMM_swapImgRestore()=20
+      =
+href=3D"http://www.maths.soton.ac.uk/cipher2005/thechallenge4.html"=20
+      target=3D_self><IMG height=3D37 alt=3D"The Challenge 4"=20
+      src=3D"http://www.maths.soton.ac.uk/cipher2005/images/4_up.gif" =
+width=3D37=20
+      border=3D0 name=3DChallenge5></A></TD></TR>
+  <TR>
+    <TD vAlign=3Dcenter align=3Dmiddle><A=20
+      =
+onmouseover=3D"MM_swapImage('Challenge6','','images/5_over.gif',1)"=20
+      onmouseout=3DMM_swapImgRestore()=20
+      =
+href=3D"http://www.maths.soton.ac.uk/cipher2005/thechallenge5.html"=20
+      target=3D_self><IMG height=3D37 alt=3D"The Challenge 5"=20
+      src=3D"http://www.maths.soton.ac.uk/cipher2005/images/5_up.gif" =
+width=3D37=20
+      border=3D0 name=3DChallenge6></A></TD></TR>
+  <TR>
+    <TD vAlign=3Dcenter align=3Dmiddle><A=20
+      =
+onmouseover=3D"MM_swapImage('Challenge7','','images/6_over.gif',1)"=20
+      onmouseout=3DMM_swapImgRestore()=20
+      =
+href=3D"http://www.maths.soton.ac.uk/cipher2005/thechallenge6.html"=20
+      target=3D_self><IMG height=3D37 alt=3D"The Challenge 6"=20
+      src=3D"http://www.maths.soton.ac.uk/cipher2005/images/6_up.gif" =
+width=3D37=20
+      border=3D0 name=3DChallenge7></A></TD></TR>
+  <TR>
+    <TD vAlign=3Dcenter align=3Dmiddle><A=20
+      =
+onmouseover=3D"MM_swapImage('Challenge8','','images/7_over.gif',1)"=20
+      onmouseout=3DMM_swapImgRestore()=20
+      =
+href=3D"http://www.maths.soton.ac.uk/cipher2005/thechallenge7.html"=20
+      target=3D_self><IMG height=3D37 alt=3D"The Challenge 7"=20
+      src=3D"http://www.maths.soton.ac.uk/cipher2005/images/7_up.gif" =
+width=3D37=20
+      border=3D0 name=3DChallenge8></A></TD></TR>
+  <TR>
+    <TD vAlign=3Dcenter align=3Dmiddle><A=20
+      =
+onmouseover=3D"MM_swapImage('Challenge9','','images/8_over.gif',1)"=20
+      onmouseout=3DMM_swapImgRestore()=20
+      =
+href=3D"http://www.maths.soton.ac.uk/cipher2005/thechallenge8.html"=20
+      target=3D_self><IMG height=3D37 alt=3D"The Challenge 8"=20
+      src=3D"http://www.maths.soton.ac.uk/cipher2005/images/8_up.gif" =
+width=3D37=20
+      border=3D0=20
+name=3DChallenge9></A></TD></TR></TBODY></TABLE></DIV></DIV></DIV></BODY>=
+</HTML>
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/Email_Off.jpg
+
+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
+BlAGUAZQBlAGUAeGgAvG5UAEUAZQB//Z
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/About.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAZAD6AwERAAIRAQMRAf/EAKEAAAEFAQEBAAAAAAAAAAAA
+AAABAwQFBwIGCAEBAQEBAQAAAAAAAAAAAAAAAAECAwQQAAEDAwICBQQMCAkNAAAAAAEAAgMRBAUS
+BiExQVEiEwdhcYEUkaGxwdEyQpLSk9MIcoIjc4OzFUXw8TPDRFRVFhjhUmKywkNjJCU1JjYXEQEA
+AgIDAQADAAMAAAAAAAAAARECEiExAxNBUTJhIgT/2gAMAwEAAhEDEQA/APnxAIBBabc2zmdx5NmO
+xNubi4dxdTg1jf8AOe7kAplNLTQD93fdzWNc+/sGuIBMZfLVteg0jXP7Quph/gHudv7wsPQ+X7NP
+tBqb/wDhG5v6/YfPl+zT7QalHgPug/0+w+fL9mn2g1dDwD3Sf6fYfPl+zT7QanG/d93UeWQx/wA6
+X7NPtBqc/wAPW6KccjYA/hS/Zp9oNUeTwG3Kx5YLy2kI5uY2anttCfWE1PQfd/3LM0n9oWcRBpST
+vR/sFPrC6nf8O25ujK4/50v0E+0GpD93fc/9q4/5830FPtBq4d93vdA/eeP+fL9mn2g1NnwB3OP3
+ljz+PL9mn2g1IPAHdB/eGP8Any/Zq/aDU6z7vW6n8sljvny/ZqfaDU637uW6z+88cPx5fsk+0Grs
+fdv3V05bGj8eb7NX7Qauv8Nu6P7Yxo/Gn+zT7Qaybu/u47uhtZZre/sbuSNpcLeJ8oe+nQ3UwCqR
+7YmrLr+wvLC7ls7yIwXMDtEsTuDgQukTbKOqBAIBAIBAIBAIBAIN3+722GLC5e6bGPWSYo+9+VoJ
+fUe0F5/aWsWh5HI2drazXFzcMj7ppeWkjUQPPRcYh1jG1HityWOZtHXdi/XE15jceHBwAPvokxSU
+2aSR4YwanuIa1oHEk8AFUejO15mZMWQuBM0wyTCWCMyEuhcWSRtZUEua5pC3pylupMCy0fK69uu4
+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
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/Enlist_Off.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAUAAyAwERAAIRAQMRAf/EAIgAAAIDAQEBAAAAAAAAAAAA
+AAAGAQUHAgQIAQEBAAMBAAAAAAAAAAAAAAAAAwECBAUQAAIBBAECBAMFBAsAAAAAAAECAwARBAUG
+IRIxQRMHUXEiYYGRMhShQoKisdFSYiMzYyQVJQgRAQACAgEEAgMAAAAAAAAAAAABAhEDEiExQQRR
+YUITBf/aAAwDAQACEQMRAD8A+fLUBYUB0oCgigm1BFBNAwcN4XtuVbRcPCW0Y6zzn8qL4kknp4UD
+5reBcePOV45jOmTh4wjXLzSDeSSRQ57SfId1ugF60szB09yPaDUcc1LbbXsrrGl2hYfQ12JsVPTz
++FS7dmGc7zgGrz9XFtdG3ptLGspg8hcXI6dOnhcfhV4GcTQywSvDKpSRD2sp8QRWRxQABJAHUnoB
+Qbhj5EXCvbxEx1Bzc0KZB4GR2btjjJAv2l7s390D4UGc63km11nIZNmmQ82QWVpZm/tqLHoPIeAH
+la1SvPVSaTERM+V9zb3Z5BvNfHiZGUZYu2zqBYdDWnlPCt4fyL/jMiFEYjXyusWXCx+lGchVnX4d
+fzfEfK9VpbML79E67YlPuVp0gykzY1t3nse3mCLr+HUVugSKD0a9kXOxmk/yxKhf5Bheg1Xn0hyN
+Fq2H1KuREp+7HlUfzkUGf4CPGJock2klFjIfAyI31fib1yflL1/Z18tNJj4cx42KqTGdugViiEdS
+wHT9tbYx1edprm8Q80WNkCDIIuEMLAr/AKjdIv5r1nT5eh/T6RX56n73Pkj/AEBU/muvb8+6/wDR
+euh5LL6AH2UGq8fz8TkXHW12TJ2SkBe8WLJKpDKw/iAYUFXkanGjmOFtYvTdvFgbK9h0aJ/A+Hh4
+/GpX15nMd3d6/ucK8LRmrg8e0GMglM08rJ1UZACIPk1lvWn67SrX2NFJ5Vi02+1hpdJHPNFnzL6W
+uxmEwZh2+tIlu2wPXsBF7+fQDzNWrWKxiHFv3W2W5WLfPN4M7OEEZusZ7n+fgB9wrZEq0BQevW7P
+K12QJ8drH95T4MPgaB71/uFgZEAg2Ealf3o5lDKT87EfjQet+VcRhAlixMRZB1VkjjuD/Ct6Bd5B
+z3JzVaLGuqnp3npb5D+ugUWYsSWNyepJoIoC1A8YPtbkZPGNXvpNrBANx6n6LDMGbI59PJbFPfLF
+DJBHd0uO9x0oLI+wvLY+R5+iyZ8aCfCnwoUnYyGKdNhOYIpYmC9VV1PdfqCCPEUFBxX252nJTmx4
+WVjRT4ebha8RzuyepJnzPCjKQrfShjJbz+AJ6UFuPabAE+3hk5frI5NInrbBGg2PdHEHjiLlf01+
+ksoQqLnz8KDPnVVdlVg6gkBhcAj49bGgi1AUGg633WTF4nqNBLrshzphL6M0OwlghkMuU2VebGVC
+j9rPbqaC213/AKB3eLLnifXR5eNk7ld3hxPIQ+N/uzmSYyydpLRs/wBgsbnzoKRfcDjEOHscLE4y
+8GNtMjDyMv8A7CRpL4kzykRyekOz1BJ23t08aDjbe6OTtNjyLNydehffa2HVL/iszwx47QsjtK4Z
+5nP6Ze4ubmgRqAoCgKAoCgKAoCgKAoCgKAoCgKD/2Q==
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/Cipher_Room_On.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAUAAyAwERAAIRAQMRAf/EAJMAAAEFAQEBAAAAAAAAAAAA
+AAABAwUGBwQCCAEBAAIDAQAAAAAAAAAAAAAAAAIDAQQFBhAAAgEDAgQDBwIHAQAAAAAAAQIDABEE
+EgUhMRMGQVEHYXGxIjJSFKFigcHR4YIjsxURAAIBAwMCBAQFBQAAAAAAAAABAhEhAzESBFEiQTIT
+BWGhsRTwcYHRgpFScsIj/9oADAMBAAIRAxEAPwD58oAoBVRmOlQWY8gBc0A4+JlIup4XVfMqQPhQ
+DVAFAJQC0BN9tdtZG8ZHIrjqbMw5k+QoC/R7f23sgGO6mTJABbHgXU9jxu58P8iKAcbc+3nAU4OQ
+oPNgInI/xjkdv0oCK3js/bNyw2zdskVxx/2ILEEcww+NxegM8ysabGnaCZdMiGxH86AZoD0il2VF
++pjYD2mgNaGjtvtVHxwv5cuiDHYi46jn6yD5WZ/4UBWRvP41+jGZ8jUSdRuWe9mdj778f7VrzyNu
+iOrg48IY/UneuiEPdu6soXLx4WiP1tCmkqB5tcmotNXqMfIxzltcI0fSx07X3CMTOXLQ2gZkjzk8
+Gic6Q9vuQ3I9l/A1djnuRq8zjelOi8r0GvUjaEgmTKRbfNpNvJv6GrDUKNQHRgSLHnY0j8USVGYe
+wMCaA1r1DgZe39qlUXi60LFvAaoZYf8AowFAZvguuMs6yPedQI42sDex+Yj32FatLs6fJzVxwS6H
+ldwkgSVZFJSVWULawswteso0Mc9skxjHimkim0XJaMwKn3PMdKW9x+NSwrU6PuUl2o0D1QkQbfY/
+UzKF9+q/wFXnKMuoBaA23sTLwO9e0ZO3stwdzx1KpETZpUPMIxP13AdP3X9lAVXY+xMvN71n2fMl
+GuB0jMgBXgUBBZfusRcVXPUktC7ep3ol/wCNsQ3GLIEwiQFl06TxqsiVPs7td9MG77ggx8WACbGh
+vxdyOEz28PtHPx8AKuiqIlObk6vUrXfm+puO5dGFtUMBNyORbl+gqREq1ALQHTt25Zu25ceXhStD
+kRm6uvwNAXXH9VMxu4oe4stGO6IiJO6kFZemAqs1+N9IA8ajJGak93d645fc8AxMx3TD02kVQdbD
+VyA5cv3VWoN6gqPcXqHuG5YyYOGn4mDGoREX6tIFhy5cPHifbVxgqNAJQC2oCYi7akeaHGOXAmZL
+ovjEvrUSC63+XTe3MA8K1nyUk3R06nah7LKUow3wWSVO29Vu08Kfmq2BO2ZnWPp5MTTPFFkNB84Z
+YpdIDEldJ06uNjR8lLwdKtf0EfZZSSpOO5xjLbeqjKl9KWre4mN2zmz5E8JIi6Mqw63DBWLuUBXh
+yvWZcmKSfVGMPsmWc5R8u2SjV1vV0tYVe3VPVP5saxxBNTtHOvGRiqgApqPEeVY+4+H0/cyvaE6/
+9I0jS7jNeZ0VttfkR2bhy4eXLizW6sLFGK8QSPEVfCakk14nM5PHlhySxy80XQYtUigKAm4u44ly
+oc1sFHzo9HUn1uNXTAAIXkGIHE1qvjujjXtO5D3mKyRyvGnlVKyq70tpom/F3/JDb9yZjfjIqqkE
+EcMbxgLeQQ2+p9OuzaeV6kuNG/V1+ZXL3rK9iSShGME1bu201lSt6aVHcburKiyZ5ZVadJZknSN5
+GITQ5cAXB87VGXFTSStahdh9+yRnKUk5qU1JJyfbR1t9BU7pmgaR8WN0kk6fzyzNMR03LWGocje1
+HxU9fpQR99lBt401J7buTlo6+PUis/JGVmz5ITp9Zy+i+qxY3PE1fjjtil0OTys/q5ZZKU3OtNdT
+nqZrhQFs7ZjxGwMdcnpWlyJlMbxRuZVESkJrbinG9jXP5Le506Lx0uev9khjeGKnt7sk1Rxi93aq
+Lc/LetPiCwY/4af6scbP+KTNMen1hk9M8Ln59fU4AeVHJ7tXvr+lP2oYjih6S7Yfbend9u71Nr/l
+u3WS6HqWHH6EoaLGG0CBDhTDp9VprLbiDrLFr6weQom6rXfW/Sn40J5McNkqrH9tsWyXbuc7fy3V
+8yeiOncNt2eN92y4umetBKmPCAPkeLhKQPDiFI99V48k3tT8GvnobPL4XGi8+SO3uhJRX9rj5v8A
+Vr/IpFdQ8KFAFAFAFAFAFAFAFAf/2Q==
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/Boats_Log_Off.jpg
+
+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
+0BoP/9k=
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/Honours_Board_Off.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAUAAyAwERAAIRAQMRAf/EAIYAAAEEAwEAAAAAAAAAAAAA
+AAAEBQYHAQIDCAEBAQADAQAAAAAAAAAAAAAAAAMBAgQFEAABAwMDAwIEBAUFAQAAAAABAgMEABEF
+IRIGMRMHQVFxkSIUMkIjFWGBgqIzobHRUmJjEQEAAgIBBAIDAAAAAAAAAAAAAQIRAxIhMUEEUWFC
+EwX/2gAMAwEAAhEDEQA/APPlqAsKA0oCgxQZtQYoM0Eg4bwvLcqyiYcJNmxq++fwoT1JJOnSgnmN
+4Fx485TxyMtEmHGDaZc0g3cccSFnaT6DdbQC9aWZhNPJHiDEccxKstj1JWltF1MqH0KuomxSdPX2
+qXbswrnOcAxc/FtZXBq7anW0ulj0FxcjTTTpcfKrwK4eZdYdWy6kocQdqknqCKyNKAAJIA1J0AoL
+wjyGuFePEIjpBmzQkuDoXFqVtbbJAvtK7qV/5A9qCucbyTK4zkLmTRIW9IKkqdeV/wB0ix0HoOgH
+pa1SvPVSaTERM+T9zbyzyDOY9uJIlF1rbZaQLDQ1p5TwbeH8i/bJDKEKIx7q0tS2VH6UKWQlL6fb
+X8XuPheq0tmF9+iddsSz5Kw6GJSJrabbzsXb1BF0/LUVughFAox6kJnRlOf4w6gr+AUL0Fq8+cMj
+BYtQ+pKZDST/ACjupH95FBX8BC2w8zJNnHRYuHoXEK+r5m9cn5S9f2dfLTSY+GrcaKlDxfVoEqKE
+EalQGn+tbYx1edprm8QTNRpAYkEXCCyoFP8A9FaNf3XrOny9D+n0ivz1T7ye439gUn8V07fjuv8A
+7XroeSq+gB/CgtXj8+JyLjqsdJc2OkBO8WKkOpIUlQ/qAUKBrkYmM28YWVa7a1dVA2Suw0U0voen
+Tr71K+vM5ju7vX9zhXhaM1aHj2AjIDpefdUjVIkAIQPgqyb1p+u0q19jRSeVYtNvs4YXCNvvNT3k
+9rHRlB4KUNvecRbbYHXYCL39dAPU1atYrGIcW/dbZblZG+eZwTpwYbN0tncv49AP5CtkUVoCgV43
+JysdID8dVj+ZJ6KHsaCd4/yFAkMBjINpKfzNvJCkk/GxHzoFa+VcRZAdaiREuDVKkNt3B/pTegjv
+IOeyZqVNRrpSdN50t8B/zQRFSiokqNydSTQYoJpivFPIsnJ401GsprkzfcYlBt1TTH6y2LPqSg7f
+qavp6Gg6s+Jsm9jW3U5WB+7yYa8nAwW937t+E2lbhcR+n29ykI3ob37lJ1oO2W8K8qxclxuQtks/
+tC83Hko3qbdaaShTjKfpv3k91N0n3B6EUG7/AIYzDbiojWWx0nKxH4zGYxjLjqnoRlvIYQpy7YQs
+IcdCXO2pW00HHB+IctlpcthOQix0wso/iH3nO6UhyNFky1ugIQpRRshqHS9yNKBUjwnky09OVm8c
+3gmoLGTRmFCWGlMSXVsNntdjvp+ts7tzdkixvQV1tHuOtvX50E/wfmLO4eRxUxg8mFxpotLgNynW
+2ZZLzj251KRtH+Xb0PSgGPLCWYrEgYKOeSwoKsXjs8Xn97MUtqZQSzu2LeaaWUIcPQWuk2FAqX5w
+zSjnm/s0fZ5qGzGZYLhKokhmG3C+6YXtuFLba+pNhfTXSg5v+Y3A7JyOPwMXH8gyjrD2ayjbryvu
+Ow+iSUttKVtZDrrSS7a+7+FAva83xoGQEvB8eGP7s+VlpiVy1yFOS5MN+IFIUptHbQ390tYTY396
+Dg35wnnJs5yVjjK5Czi04oTVynAw4EhxJdejJSEObkuC6Cdu5O6grGgKD01mMRwv9kaPIobEWCF8
+cKJC48Bhr9XsCemK+xskrukrL3cuEgKt6UDHM4k3nDEgcsi4jEOKy7Rw72N+0aKsGy2+9MUoxz9U
+dLaE9pxepWbetA6yo3D5GcyfNIEnFtY+Xx+W2t+LFRNjxZ0OZGQlaIsptu6zGcRoWx+a16BVnMWq
+O445xbDYeRAXnGhknpMaAY7sFeMhqceV3U7WGFqUpf6ZFiVetB565g3hW+WZlvBHdhkTZCccQdwL
+AcUG9pubp29D7UDPQFAUBQFAUBQFB//Z
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/Standing_Orders_Off.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAUAAyAwERAAIRAQMRAf/EAIwAAAICAwEBAAAAAAAAAAAA
+AAAGBAcBAgUDCAEBAQADAQAAAAAAAAAAAAAAAAMBAgQFEAACAgECBAMFAwkJAAAAAAABAgMEBQAR
+ITESBkETB1FxIjIUYZEVgaGxQoKiIyQW0VJicjNjo2Q1EQEAAgIBBAIDAAAAAAAAAAAAAQIRAxIh
+MUEEUWFCEwX/2gAMAwEAAhEDEQA/APnzbQGw0Bw0BoMaDO2gxoM6Bg7N7Ly3dWUWnSXaMcZ5z8qL
+zJJPDloHzG9hdvHvle3KzpZp1hGtu6Qd5JJFDnpJ8B1bcAN9aWZg6epHpBiO3MS2Wx7K6xpu0LD4
+G3YnYqeHj7NS7dmFc5zsDF38XFlcG3ltLGspg8BuNyOHDhy3H3avAriaGWCV4ZVKSIellPMEayNN
+AAEkAcSeAGgvCvYi7K9PESuoN26FMg5GR2bpjjJA36S+7N/hA9mgrnG9yZXGdwyZNLDzWCytLM39
+9RseA8ByA8NttSvPVSaTERM+Xe729We4M5j46li0ZYunZ1A2HA608p4c3s/uL8MsQojEY+V1itws
+fhRnIVZ19nH5vaPdvqtLZhffonXbEs+pWHSC0l2Ndus9D7eII3X7uI1ugSNBIx7It6s0n+mJUL+4
+MN9Bavf0hsYLFsPiVbESn8leVR++RoK/oI8YmhsnaSUbGQ8jIjfF9531yflL1/Z18tNJj4ax1qqp
+MZ24BWKIRxLAcPz62xjq87TXN4hGirWBBYI3CGFgV/3G4Rfvb6zp8vQ/p9Ir89T96nyR/QFT8269
+Pv6t/wBG+uh5Kr9AD7NBavb9+p3F262OsydEpAXrGxZJVIZWH7QDDQcuxia0cxpZWLy3bmwOyvsO
+DRPyPLlz9upX15nMd3d6/ucK8LRmrQ9vYCsglM08rJxUWAEQe5tl31p+u0q19jRSeVYtNvt0MLhI
+55or8y+VjqzCYMw6fOkTbp2B49AI338eAHidWrWKxiHFv3W2W5WLffmcF68IIzusZ6n9/ID8g1si
+VdAaCXjcnax1gT122P6ynkw9h0D3j/UKhYgEGQjUr+tHMoZSffsR9+glv3V2jCBLFUqLIOKskce4
+P7K76Bd7g79s3VaKtuqnh1nht7h/boFFmLEljuTxJOgxoHaD0yC4TC5bK5+hi4s71NShlS5K/lhn
+j6mNeCVN/Mj2KhtxuCdtB0KnoplL3d+U7YoZWpbs4eu8l6yqzxwpaEvkpT3mSPqlkk6QpXdTvwJ2
+Ogg4z0i7myOCwGbrtEaGdyK4rq+PqqzSWPpkewoXcIz+I39nMjcJk3oxkVWKtFmqEucs05chUwn8
+ws80EDSq/lOYvJL/AMu5Cde/DQa5f0T7ox+DuZlZq9qrj7NetdWEv1xrZqV7YnKso/hoLiK58D9n
+HQFn0cuUJrMWYz2LxPTcs4/HNbeVFtz1CBKUYRsscQJA8yQqN+Ggr7o93PbmNA2N3709m47teCj0
+Vqt5MjZnkneUyTRhlAhRh0V1KuerpB3P3aDuR+tuWp3MzfxWMqV8hm8uuWsT2ES2FEO7QQosqbDy
+5HZxINm35baCUnrvfrZ3H5HHYiKtTqT3pbeLaUyw2UyFgWXjbdB0+XKvVGQPhO3s20EW56xQzNWy
+EGAji7ipUZ8dSyr2ZHWKKw0zM6wBUXzFFpwrEkDntoN7Xrll3sVp6uPigMNxbM8TuZYrEP4dXxst
+aZCoDRyx1eo/5vsB0Ho/rXBcyq5HMdtwZGSjkp8thN7M0RqyWZVmeJyg6Z4vMQN0lRx347EjQKH9
+W/8AST/1vxf5v+H5fl+382gi9ox4aTurDx5tujDvdgXINuABAZFEhJPIdO+59mgvzC4qsM5j/wCs
+cfhKk/4mR2ytGOi6y40VLTSF0hJEtZSI2jaQdXXoPO5V+p7fGU7Qp0cxmZ8PVlXLDHUIkszfiLJM
+v0ToYY5IYgUb4eor7tBKSjiDiMlPgcdXkyf1tRckmIqYu8iW2x0b244frRJEsAnO38Pk245aCHka
+vbh7YETUaOZydGp2zKmDhp1a7I85h+okW4oEthZ26o5ASQvVx0FX+taVk73dK5rJF9NC6060Fes1
+XzAZPpZ1qjynli6+lmG+4235aBC0BoDQGgNAaA0BoP/Z
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/spacer.gif
+
+R0lGODlh2ACQAJECAAAAMwAAAP///wAAACH5BAEAAAIALAAAAADYAJAAAALflI+py+0Po5y02ouz
+3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsO
+i8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp
++QkaKjpKWmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnKy8zNzs/AwdLT1NXW19
+jZ2tvc3d7f0NHi4+Tl5ufo6err7O3u7+Dh8vP09fb3+Pn6+/z49eAAA7
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/Submit_Off.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAUAAyAwERAAIRAQMRAf/EAG0AAAEFAQEBAAAAAAAAAAAA
+AAABAwUGBwQCCAEBAAAAAAAAAAAAAAAAAAAAABAAAQMDAwIEBgEFAAAAAAAAAQIDBAARBSESBjET
+QVGBB2FxIjIjFHKh8aJECBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A+exQLQSGK4/l
+srcwo5cbSbKdJCUA6ablWF9eg1oJGdwTkURHcDCZKALq7CtxHw2kJUfQGgr1AGgSgBQTPHuNzMy/
++NCxFbUgPvJF9oWsIv6btaDa8fhI8OM2w0hLbDQ2ttp6AeuvrQPPRm9l0jWgzP3F4spuQ3lIbVkP
+hYlW0HcQU2VbzWFa/LzNBQjQJQKAomyRdR0A+NBp7GSRxyLhMVGB3PvtOTNo1Vust1SrDo21f5E3
+6UGpCMXWUvM/U2sXHwv50DaMdIdc2JQSfGgpvuJkW4M7GYgp3NyC6JDg1Sl0j8aCRca2WLdf60GQ
+5uJ+rkXWwLIP1J9etBw0DkdaUPtrV9qFJUfkDegu2dW3InIFt7smFkERr6juKaRb/EKoLjwbnU1U
+uXBTtJZO5lK9e4ypX0K1vrtIv53oLLyX3BlwsUpxxLcRsnYO0CFKUb2SCdaDI5uRcyBTNmAl6RIx
+6Wb+BEl51Pn/AK60n1vQQvK1pVkQkdUp19f7UELQFgQQelBacbLVkcey0h0NZSAoOxXFdCpFwN1u
+qVA7VUHtSojkoKZUcfkmukdbiWnmyq+iFL/G+3122Uk28baUDktMtCUnNzippA3NpmrZQnp4Nsuy
+FufxBTeg9d1CloyDwW1Bi71xkuja4884Nq31oH2i30tp8vKgqcySuVJckL0U4b28h4CgZoFFB6bc
+caWFtqKFp1SpOhFBMN8kLraWsjFaltp1BWAdf4qBFB7OfxjKg5DxjLTw6OBCEEfIpTQRk7JTJrm+
+Qu4H2oGiR6UHKaBKBbUGjv8As4pjGxX3MygzJOFkZ8RkRni3+uxG/ZCESTtacUfsVsJ2nzoHuN+y
+cjM4NjLDIuhD0JmcI0SC9NeAelPRQkNsq3kJMfcpQHQ9NKBjO+x/I8ZHiuR32sgqRm3ePqSyDtRI
+SsIaUVXOjh3XuBtIsaCUd9hmY/I8fgpfIkMyMnNm4+EtMRawp6F2b7rODaFh+/XS3xoMvykfHx57
+zOPlGdDQQGZSmiwViwJPbJUU66daDltQFBf8b7uS8dFxeNj4eKMJAjyo8rHKdkqEv99gMSlLcW6p
+be8J3JS1tSkk6UHSj3mdbYcx7XH4acH+pGhMY0PzE9tEV9ySlXfbebeKlOvEq+ryFqDpd/6E5i6i
+YFx4gVME5RKErAbenFooeQFKVZcfsDtH4m96Djn+9mfm8kxGecgxEycPPl5JhpPc2LcmhoLSu677
+U9kWsaDOqAoCg2rAyHnPZaNChvOLeLWXMpmLkcbF2NkDYZLEpCn3kH6rJbUk2vbUign+V8j4U+9z
+/P4WTFx3JISBCbZaU2W5fansuRp0W9wV9topcCb9ArxoHjzuCZ2cXk88Y0WLhsIWJUJMWQ+2/IXF
+/dLLayELUpV+712i+h6EGc3yrg7OYzmYMaO3N4LMef49EiOsKi5FOTAS0tYTa/be/MsN9Eq220oP
+nagKAoCgKAoCgKAoP//Z
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/Solution1B.gif
+
+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
+S62Ti7RsfrAfR96wZGxPYiHlxnD0ojAKk905XQatjpfp2pvexjHXDhFWsopSN3eUlzVoBJIXdNyM
+h5Z3/ZgxyW2cSdsK2dmrTejY9E3B2FFcQHPweJW7ftJGzVQBuSslz/KJKwgXg3Ql+CZovSxzxdoO
+cU6L6UoV/2LLZHxLhHfMpwmbvdGzokHEUdbZnqTocsX0xSLUmhdIGZsgcpEcYk1QdeoPTpcCMFlU
+OPLCdcyaqODygdlVOYWSCfrUL395afstl1ApMZWhgRSt25T0h56tGUP07hhIbXXh61WpTq91QP2c
+3lK2gLfxlpC35t643gR4/F5JyBmZM52R9aTaLO+V3mK6gq8+/VjoHKlsiM/ahgfXeeD2qWI0g81B
+Y9iMszVcrDUeULVFlmUc/uHddCAF8jxc5dEF1TEI3EFdIMZc1QlaUXqL1LVc2HVbkaVY90kezQ9d
+UCIFjaYx2sAdABkckCVbbJj9Ru/7AZUFUJWqvwX7rDWo7P9D/CjDXcwxHdYlQsAl/LYh/t4HEfN1
+YZMoX/c/YXnIYAgACqHNsD02XYTuaZ1Xx5UXcNgyRudJeZZqhlP6zWIspdLbjXl7rS0Y5dbT1Xas
+Sw+3sQCJpqR0Sq1ar9isdsvter/gsHhMLpvP6LR6zW673/C4fE6v2+/4vH7P7/v/gIGCg4SFhoeI
+iYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goaKjpKWmp6ipqqusra6vsLGys7S1tre4ubq7vL2+v8DB
+wsPExcbHyMnKy8zNzs/Q0dLT1NXW19jZ2tvc3d7f4OHi4+Tl5ufo6err7O3u7/Dx8vP09fb3+Pn6
++/z9/v//AAMKHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmy
+pcuXMGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9ev
+YMOKHUu2rNmzaNOqXcu2rdu3cOPKnUu3rt27ePPq3cu3r9+/gAMLHky4sOHDiBMrXsy4sePHkCNL
+nky5suXLmDNr3sy5s+fPoEOLHk26tOnTqFOrXs26tevXsGPLnk27tu3buHPr3s27t+/fwIMLH068
+uPHjyJMrX868ufPn0KNLn069uvXr2LNr3869u/fv4MOL/x9Pvrz58+jTq1/Pvr379/Djy59Pv779
++/jz69/Pv7///wAGKOCABBZo4IEIJqjgggw26OCDEEYo4YQUVmjhhRhmqOGGHHbo4YcghijiiCSW
+aOKJKKao4oostujiizDGKOOMNNZo44045qjjjjz26OOPQAYp5JBEFmnkkUgmqeSSTDbp5JNQRinl
+lFRWaeWVWGap5ZZcdunll2CGKeaYZJZp5plopqnmmmy26eabcMYp55x01mnnnXjmqeeefPbp55+A
+BirooIQWauihiCaq6KKMNuroo5BGKumklFZq6aWYZqrpppx26umnoIYq6qiklmrqqaimquqqrLbq
+6quwxv8q66y01mrrrbjmquuuvPbq66/ABivssMQWa+yxyCar7LLMNuvss9BGK+201FZr7bXYZqvt
+ttx26+234IYr7rjklmvuueimq+667Lbr7rvwxivvvPTWa++9+Oar77789uvvvwAHLPDABBds8MEI
+J6zwwgw37PDDEEcs8cQUV2zxxRhnrPHGHHfs8ccghyzyyCSXbPLJKKes8sost+zyyzDHLPPMNNds
+880456zzzjz37PPPQAct9NBEF2300UgnrfTSTDft9NNQRy311FRXbfXVWGet9dZcd+3112CHLfbY
+ZJdt9tlop6322my37fbbcMct99x012333XjnrffefPdL7fffgAcu+OCEF2744YgnrvjijDfu+OOQ
+Ry755JRXbvnlmGeu+eacd+7556CHLvropJdu+umop6766qy37vrrsMcu++y01277yAkAADs=
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/0_up.gif
+
+R0lGODlhJQAlANUAADIuLmhoaNvb29mJKuy3aYeHh1VUVOOWOJSUlPrr2MPDw0hFRO28dby8vOik
+S/zz5/LKhtB6F/XXquGNKNmBHempVrCwsKCgoHx8fPvuyfDs6N+HHqysreW6hv358/notPDCePHI
+kuqsYuaeQuvaxvbcuPPQle7j1mlCFfnnzd/f30A7O/rrwufFl+KSL9uaS+nLpPjjwvvv3+/BhPLO
+oOrStPfgxOuxXt6jW/PPjV9fX6enp+GsaeGvdN+CFba2tiH5BAAAAAAALAAAAAAlACUAAAb/wJ9w
+SCwaj8ikcslsOpUFgHRKXQGsWKoWYDjqAIECAnG57HacdNrCVnPO5UuhYFgUEQCEgjMex81ngTt/
+ZH0KPys6RAsGDRdbVysLjJQLK5dbAQJfRCtdOigRogMDBy84PAwdLS0wMDU1JCQnJxoqDQYCASud
+igYRPj4bEwcjFQQMISYSzCUlNikJMg8e1ToqGAC9P7/BwwcONzMzDsE+BDExKdHT1Ro6AtmdAdzA
+GxsuxiAgGz4VLC58jFiXQBo1D+/i8RqyIgAuYD4muHBAAEJAHxAyEAjGoKBBd/CizGugAyKxCiA2
+BjORgYE5dtOmnQi5UEhDkvYmjLgBYYQ5/5Yug82QQdTjiQAqRA5Z4LCkMJ03cvRb2dJcBRkJ1q0j
+gbRAzR9MFTjFN6KiOR9AzbmQsc6G2xpdv4YdO5EBiLNpzWW14awE3KRyA4i1N3Ef3qrmMsQowUwC
+jLiLBNN1YPdw0GApGNPY3ALyUsmEKd/9iThYDAk0Qqju4FnI3NBmSV92USL1uBmsAUceLCwfAak/
+WVx2ICHHDAbIe7QG2zTnTgjlguVgofKcieMEeojgocnryLEnU5rL8aG6CQgMRKgXgeOaUpvNnx44
+lmNCMAjlgzlAL6ICDgcOtCeAdwzR080wE92AXD83SOCTCyAwcEMFDowwggMvXCMPQzo89L9UPuEQ
+QIBPwaBEAIUWFnPAAfBg8FUi9TwlUTHh3CAiARNWuKILLhzgwgAtasOhh/dMYGSPFgII4Ag+umDk
+kQPksqFNjfwSAQVYUnDPABLxyCMpA9xDQZgURCClkDYtYIFXktRhwJs6GKDDnHTG+eabkyxQgC5o
+/pBNAT9YMEQDhDagwKGIHmpooUMceoEkRViiAwaUziGGGH1k2oelBWBQwC4ACFqEAVVcYqoleaJq
+KiZWSCHqE7DGKuustB4RBAA7
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/1_over.gif
+
+R0lGODlhJQAlANUAAPqVJ24AAFUAAP52Av/nxvIvAf/aljoCAv+vR/u5av/rz/+XG/+lPP5YAf62
+XP/Fd//LiPmLGv+NAEUoKP/juf/Ypv/es4R/f/7BaVhMTP/79/drBP716ZyammNXV3Bra+8eATwq
+KvKqVPzQm+ORLf/TiueYN/OdMoUAAP+gLvB1E/SEDv+wTvDdyP+AC//v3SEBAf+SEO4+AvHp4fDk
+1v+NBuOQKfR/B+meQLepm/HAhvDTsO/YveGIHt+CFba2tiH5BAAAAAAALAAAAAAlACUAAAb/wJ9w
+SCwaj8ikcslsOpWdkHQ6CU2q12zWOp1ejpfDQSAIlMuBtHq9PpMPnmJnjDKT3eZ82k22C+owX0Mf
+B2Ywh4iJMAchMCEHiokHKAcZRB6FYyAgBTKeDRsqESciIgk6IyM7PC00rjmTlZeZBSAbtwMDogAp
+CA4YDxAQIxYELxwaGjOTApZDmAEHtbkuLjELDA4PJRgmNgYVFhQKx8nLKM2z0QUFEhLXvRglIiY+
+PjYE+eTI5szOQtAOcJJQAx4CHPYSkshHYB+HhzT8qRMog6DBBwZsKFSg74VHjy0kPosFomLBBSlY
+YERojwTHhgpixtwhEmCmkhZRIli58SXD/3wjav7ARAlEg5zxDLD04ZIABQoWokbVITSgUaQIMCjd
+CLWC169U0f0bSvLoyaRLF1qokKrtiARVywg0a1BrWgpshemFIKLqTbo67SqkYADCg8OIccRdBxht
+QhtsH2BIQJnyCb/Rrp7NutXeN24JHIgWDQCztMYqOzM18CABi9ewI/ilVAA1T8+sHSBgwJv3CtO1
+czJgIW+pDW4seqdYfgP4BovLs2LokdAHBgy7U6DUrgJ44xPVwzPQvuBajA2mjW7INcBFBADDRycH
+EMEF+1wyMMOozb5ahPcpKEdfNfaxlx8lYwXkyQY3NLjCCv8BIKGE/z3Y4A0rbFBAVTAYskPIImKE
+KOKIYnwIwx+yDNHBiWysUceLL7aoBjowfFDEB4sIMMYdPPboI4+QjDWIFFdYocWRSGohRRxPNOnk
+k1BGmUQQADs=
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/2_up.gif
+
+R0lGODlhJQAlANUAAGhoaOKVN9vb24eHh9mJK5SUlFhYWOmnVPjlye67dcfHx+GKI/XWpzo1Ney0
+avrr10dCQvHIk/jjsru7u+eiS9B7F/zz6PHJhPbu5LCwsHx8fPbct6CgoPTSmeq8gt6DGaysreWc
+QP359d+GHmlCFevaxikmJumsX+7j1u7BiN/f30I9PeKQLOnHmtybTe/CfOuxX+nMperUuTIuLlFQ
+T/LNn2BgX6enpyIgIMPAu9+mX+Oxc+rQr8DAwN+CFba2tiH5BAAAAAAALAAAAAAlACUAAAb/wJ9w
+SCwaj8ikcslsOpUDHM40q1Ybs4Z2q81aZyYTzna0NQCDAmd9a4PeoIwc3r6tOYUBDVIszAoKGQWD
+and1h3d4eIMKPytkQxA0PQUrU1YNKxCSNJ17K1tVYjgaCjYzRA0GEzYkFa8EBAEuOjsvKS0tMTE8
+MiUlKCgYGD00AhqoQ48/NBU+HwssARQnCRcdDBIb2xsICA8YFiLjBioaDUTLBs7QLCEHDhcnLD4+
+AS/e3uDiIhg2x+iUAfix7lm0dwkC1Fvo44S+feP8AUw3sCC0ACFgUGDIMMWDj+HESRwQUMgKABMs
+LsB4YMSJbAcYHvi4zwIGFP9IUmTFbmUI/woUXnSQgIBePQo0k6IAIEBnJAA9bPR0Ry3eUAcLZ37U
+h6AEABVOhUCAKtWgtHcwhEpIsNDDg3wIusn4GvbH2KhTMVJLEEFCTB8LvHHjxoNuSbsATDkbEU1v
+taEL6iWIu4EBD8sMYhgmcrcsYxZUHQhl64OFNgY1UqtusfmpYh+fWcZjEKJeiso1Iuje7aG1WLKL
+G+/t8OKoBNQRUij3kMJDb7CHOweXBu8aPdMbOiRPkcBDgu87fCPGC9vnYxj1hkrQfuC7gx3vdYg/
+yfMD42kwLlyod0GCfwZAJeDACQSeoIMN0O1U0H3VGcVRQwkQeMCELuR02EkEVWAfdQk9uM+QgAcA
+FUIIFU6kDBkLUlWbh6UNSEEIGMH4zznpkNHMhizBkMAL+un3AogvBiBkAATMeKENE9y4QDRUHQAD
+DA48+WSQoLEQDQEGmCiEKim98oF9BIA25IgwBgAaASOkScAHFWSJTCoQZDDACpp4YoABNuSpZ553
+GuDJHhAAAkAyQmhgwgATyDHEBBP04KgCkELagwKOMjrEpDdoUgQEj2jg6QCg5kHIqKOCCqoGAwBg
+SQZG0IDDFVrQSSenm9QqK52hmNAAq0/06uuvwAaLRBAAOw==
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/3_up.gif
+
+R0lGODlhJQAlANUAADYyMuOWN9vb24eHh+mnVJSUlFRUVPjkyNqJKuGKI+yzaMfHx+66dPrr1vXW
+qPHIiLu7u+ehSUdCQmRkZNB7F/zz6Pbu5Pbct/TSmeWcQKKiorCwsH19fd2DG2lCFeS6h9+GHumr
+Xv359aurq21tbPHJke7j1u/BfNuaTPnmut/f3z87O+bDl+vaxujKpOKQLfPOoOuvW+/Agvvw2OrU
+uWhoZ19fXiUjI9+qaN+lX+KxdcPAu8DAwOnPrt+CFba2tiH5BAAAAAAALAAAAAAlACUAAAb/wJ9w
+SCwaj8ikcslsOpWcmxRwA1iv2Oy1KrUdbSvSoKApl0fojXqNRps1hYFBUiwACotRYU9++/18ewsb
+El5DEgY8BStSVVgrkBISkCtZjRwLNgBEKwYQNh4UFB0IpSgoODo6HywsLj00LS0mJhYWEAYCHJtD
+K14GFD4dIAgvGQQhCiclGA4OFxcHBw0WFSLXBiq7nL/BPgkvAcfKzM/Q0tPV1xY22rxCKxO4wcPh
+ETEMChk+/CEO0g2oWRPBTte7HytqzBMGLkAEBRH4SeTnIKBAawUHHJSg0Aa9hgQyvDjh4EECiREs
+VqtgwcQEARqJcPz00ViEBAweOEjBQOIL/4tAXaqIeagGD48+QDSMkOwBhhQYJGYAOu1AiwlDV8g0
+irRDw3EnnpaQKKMBugPRaNTIKpPE0ZriCCiQ8TQAvwgzpEHb22PtAK2H3CJVGm4cXQISH+SF5qyH
+Axd+AQuRIDgY4bgKEE/0cQKtAxigYbCI3PZtUnDG5MpQYHeiMxglYpf4QDqw6csZHoa9EGMiAwex
+ZQinzbbo7aXIGJTY2doHgZIyGEjXgfXv1tsvbCbLieFCT34xMERXoEMBjuobO1q2t53BCadR+eXM
+F6J+DvSc1CdNHSOC+/cYPMDPCw+coEAIBCSIwktEwSMPMN+kZhdO7z3Qmw/KZBZBBLmhYNGDQZw8
+GAw4x+yTVAwnMACCD/jEQACH4gQQQDvb9NJNhLn194JECTykQH8ZyCgkAh/WCI8NCyklYwQExOCk
+kwnCmF124CCQi5E/AIAkMKPUI2NuHAYZwAulgABCB6R0QMGVB60gwQZ/uWnAnDZMUEMNJJBw5wQ2
+2DDnn3NIgEcNNxARxQAQbEAEBBDssMCjkC7Aw6Q8MPqDojwsoIGbRUwyAQegDiBqHIGUuoeoooJK
+AiOKFmHAFFZQ4qabktQ6iawAVHLDCq0+4euvwAYr7BFBAAA7
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/4_up.gif
+
+R0lGODlhJQAlANUAAGhoaNvb24eHh1RUVNqLLJSUlOy1afrr1vnmyOmoVMfHx+GMJjk1NfTUqUhE
+Q/vy5ru7u+eiS/nputB7F9mDH6KiovDEh/HKkeaeRbCwsHx8fO26dOq9heCHHvbctuWbPmlCFeKT
+M/Ds6P3586usrO/AeduYSSkmJu7j1vXWnd/f3+KQLEI+PuqrXuvVuOzbx+bDl/LOoenLo+qvXt+p
+ZjEuLuOWOPvu3OGvdV9fXyIgIOrQrt2hWsDAwN+CFba2tiH5BAAAAAAALAAAAAAlACUAAAb/wJ9w
+SCwaj8ikcslsOpUCne5Uq1YZNYZ2q81aa6eTLnfMMQCCQqHCJrlJGXgm/iax2QXBwFEs1AoKGWpq
+d4V2doWDaoEsZEMsAz0FLFNfWVosLA6bm1tVUgABOTVEDAMQOSATExQUBAQmJjw0OBwwMjsuLi8v
+KCgiIj0DAQAMRI0/AxM+Ph0LITYfES0GHBcxHh4I2wcPDyPgOSoaxo9kyszOKzYY0xsWMQ0LPhgI
+Bwc33yMiOQHkxzkgoOvgDBqGBC1KXPDQghmGe/n08RtXTggLAAKXNXvGLoEBCykuMPMRAaI3cPwC
+CKj44yKqZQQ5ulu4YmSEG/e85UPRb+Ux/4w5YBaUNqNECgMjSeK8sfQGCgAqfA5xAKBH0GZDPVoQ
+WZPZzXsHtiF4AVWqxapXCa7D0GLDhQ8GMNjEOXbbCxdlWVK1qnHBughFZyyQINdr2Gwusu3IS4Sq
+grQdQnzwWKJDCQSFSW7z0KBzAxmMp6KF+QxwiXYSCNtEwDmG6xgwQgvZm3bBZAMGOqSQcCBzPQ8x
+Lgi/wEH2D9owV3wousBAatUOJaSIYYGD9eJRWV7k22wFhhkzkor3saIB8Q3ocRhH3v17+PEjF6Sw
+sMEADgM0jLtMq7zFe/jkXVCCAS0UyEMoZrUEFGnSGKBQCh5I8MFIH8xHYAIJRMBDT9oBkNwMaR3N
+4OAFKUzIzAcXbNBCBBFggIEJ/fxjTkYbSdZOAiKWYMNIIagYwQdAfmBDjNqdQ9oKK4QADVEGbFBC
+fQlgIKSSIRBAJEA0xrTAln4pxyKGP9qAZJcEDCOjEKYIs0orbLK5ZZIhIEnAAq100MoEZpIyBAMO
+ZCBAJpsMIKigOQyQw6GIDjroJoAAoKcQGpwgAARzDAEBBD1kqkAPm26aaQ+XDsFpBZoUkUkOGqQq
+wKp5KOKqGquuqoEAAFCSgRED6HAFJpn0yokDvfbqyQkM3PrEscgmq+yySAQBADs=
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/5_up.gif
+
+R0lGODlhJQAlANUAADEuLmhoaNvb29qJKYeHh+SXOlRUVJSUlOmoVPrr2OGLJMfHx+67dfvy5ey0
+a0dCQvHGh7u7u+ehSvXWqtB6F/bbtqKiorCwsHx8fNmBHfHKkd+GHvTSm+acQffgt2lCFf3586ur
+q+qsXu/BfOS6h/nmzvDs6Pnqz+7j1tuZS9/f3z46OufEl+rTteKRL+zbx/fgwvrswunLpPjkxfLN
+n+/ChN6kXl9fX+uwX/vvzsDAwN+qaOKxdMPAu9+CFba2tiH5BAAAAAAALAAAAAAlACUAAAb/wJ9w
+SCwaj8ikcslsOpUEgHRKXQGsWKoWcDveAAHC4WAph87ni/oSYp/LZQLB8CgeAIdFaDyG+/9wZHwL
+Fw9dQw8GOndbVysrD5GSWVQYC19EKwYRNx8UnwMDLikpNjskJCwyMi0tLy8oKCYqPw8CGACZXQYU
+Pj4bogUSCA4jEBwTFR4wMyUJDQ0g0jcquLo/vL4KCi7COAzHyh4zzSfP0SAmN7crRIYR2b/cHcQ1
+CL74Ph0J59LqAlEyBYDXy8c2Fx1EMNCwIZ+vGvyg+VsXENHAG702bFDgbQQDhwZnRITWAAXFdhY5
+ZdzQTYIDCAhExIiRI8eJm/xyJkARQEVF/yEPAujAqE0BvYUKINCsedNZiadPX/QkgBKoUKIbEYoY
+MQKfAgYcbJ4oAaNs2RZTq9a6uhIhjhH3HErwQBZGhbsV0PpUG/RSxnlvFYD04WJZhQmIJ8hI646t
+Nq04BvtiAAMxjcssGFv0Kw8hsRHIPDAo4PUwDQ0aWJDQbHXo35YKj03wEOOjrwmna+hevbex687C
+RBSDoCG0A18cNNRgwJwH67W/swYvVoM4h+u/NEBg4ICHgx0BAPK9+NobA64jqqNWIGG5AxHwbYSn
+KlBlZ3o4SHdA73GDAwY4iGDDMClQgwFfNxB0HwI4uICPBCM4UIAIASIgwYUSFAhQLoh0gbsVN8Iw
+KAE+G3SAg4USdNBBASwWsM6B12STVUsM4mCjCBaqyGI3BbgwwIscCrFCgjJuA6Iww6S4owsucMON
+jwbcEuQPmhBEQQZYZrDRk0wyGYpGwGyAJQVRWjMEJBdg8AAkBrTp5g1wxmnADW66GUkeAUyJCwER
+XFBEBDoEqsMCCwwqqA4REDGoBZAUseYNGEQqhxhi8GEpH5MSgAEBAVjhZxEGTIHFI2tKYuqaj6Qq
+aghPtOrqq7DGmkQQADs=
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/6_up.gif
+
+R0lGODlhJQAlANUAAGVlZey2aNvb24eHh+OWOJSUlFdXV9mKK+moU/jlsDo1NcfHx/XVqfLKiPbb
+tvrr2bu7u0hDQ+KNKOejSu26ctB6F/zz6Pbu5KKiorCwsHx8fOzbx9iBHfHKlN+HHuS6hu/BeP35
+9aurq/nmz+WdQtuZTPTVmSkmJvjjxe7j1mlCFd/f3/fgwPrswUE9PejLpeKRL+qsXfPOn+uxX96n
+YzIuLurVuvvvye/BheGuc+fEmiIgIMDAwOrPr9+CFba2tiH5BAAAAAAALAAAAAAlACUAAAb/wJ9w
+SCwaj8ikcslsOpWD3e5Uq1YVNYV2q81aa6fTDnAEKACDQgHDFrndmXjm7WazCwNDpFioFRYZamp2
+hIV2gmqALmRDLgY8BS5TX1laLpeYLl0KYjsaCwA1RAoGPwYqFRUcHAcHJa80OR8fOi89NhsbKSkX
+FzwGAhqijWQGFT4+HhIwBCQIMQE4ODIMDg4sIw8WFiHdBisaCkSLpsfJy80IMxTTDNUsKNna3RcA
+weLE5cnKMCQTMeyoUYiBLEa2C9xC1Ls3DgAEY8j4OYtmgoIEZDNkxHuAkFsKewPwCVn08JgHZQQm
+zADRgaAPAgzgbbTQ8aOAkA1/cdjXDwGF/5bICFxjAU/eg6MfV+AcEgEADwDmlpGY0WAGMh8MEhAt
+OqJr1w0AlIr80fSpSQ8pKTTwgAzBDRRbUcAlCtdG2KVCykI9RyIGCKvIGtxoIXeutcM97o5tCsqk
+hKkNCFy96oECXAfuMr9QTESvSRgTAjSYnJWtjxgsMMtYLUMHZ6YAGicDTQHE5AQ3EFwF4WB1Bx0d
+PrzO63CvB9q2r7a4QeHqBAYypEkTLrZzbIjHJ9Se3KJF86AMOuCgQD7HcLJOjYMWzd37VZjjA+QI
+QOP8ol+fSYiGcTVBggDOdQBCADEUWF91xODH10qA+WDCf1eJRiACFJYA0lgkYScBAT41cNaRDw0k
+ABgMDQw0wQQlkGAhQ/lomJJPAbCFgAkXSQCCiSQ0Q8IB9oTTUAYaMjNRACRchcBfCExAwJLMHACM
+j0OcUdI+Ekg1gToBZDlDkjnCUOUyTrIoBCklqbKKBwegQ8KaaxIAwwEncRBnBU8OM2YEGQxwSQR6
+GOCnAQAEKmigf/oZwaF/hEKEBicMAEEcQ0AAAQ8LULrApZfyoCkERFCKgQt7dHaGBqQOYCoeiKSq
+hqmmajAAAJJkYIQBk2yRSQSgHnpoJpp0cYICsj4h7LDEFmssEkEAADs=
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/7_up.gif
+
+R0lGODlhJQAlANUAAGVlZdvb2+GLJYeHh1dXV5SUlNqHJfjlyfXWqPrs2fHKk8PDw+yzazo1Nfvy
+5e24dkdDQuaeRby8vNB6F9mCHaKiorCwsHx8fOS5hOKTNeCGHPDGjeqrXWlCFeeiTP3586urq/bc
+tuuvYezbx+ilVO7BhSkmJuWZPu7j1vjjvd/f30E9PefEmOvWuvDs6NuZS++/e+KPLOSWOOmqV/PQ
+m+nLpN6iWvLNoDIuLiIgIPvvzOCqZ+Kxc+rRsd+CFba2tiH5BAAAAAAALAAAAAAlACUAAAb/wJ9w
+SCwaj8ikcslsOpWDXM6Eq1YbuIZ2q81acSZTDnAENACDQqHCBrndlrjl7WazCwMCpFjAFRYWamp2
+hIV2gmqAK2RDKwQLBStTXw0rlhCYEJYrW1VTAAEAOEQNBD8AHRMTFAYGLy82OzwYJSw1NT0tIyMo
+KC4uCwShDUSLFgQTPj4GAhkRJCIwGwoICCEhKQcHCQ4OH98EKhfEjWTIyhoxMh7R1NjZ2gny3d8u
+oOPF5ska6SczDzOUCRSoYZ63D/bEkROySMI5fjEizIARYeBAEQbrgRqw8AcEAA6T+RAQMZoGiwIV
+GOyGYmPHhgD2kYzAQQRKZQK2ydvZUgVH/yIfg8mM4W/GDBoIUujQEcLHjJ3atI0A4LNj0Jg+NJA8
+we5BCaTZYPgokSDqgREHWlD9OeSjBKwj1T0T4RWsDB/ZUlzb22OtVQALsGqN4czDDAYwqNHwEUFv
+CAQ9qvWo4RcoSMEkM5yY+2ADAgY+GFy7Qbo0i8ptAWMmvJkEYmonfCC9oUDBhtsbMKAW4na1Zg+u
+YdBYnAEB7RLIk+uuajnwUM00GXwFLYLGBhgPsmvnsdsj4IeZN3PwqqCiNOwM0qvf0X2R0KzhPXBA
+XELr9QciOOjfb6O7W/DqcDUDXRz44AEMDIhAAgnALUjCCy7lExI/JMmwmWEMZODDfApG4MDhhxFA
+GAA+5fwAYAYZyBCBYfyIMIMHEZwg44wnZHDPSwAcM1QMPFq44osxyoDikCgaIAyJDBEQEnwCNElS
+gDJEyWMMJD2ZgZEjdlRKSKtQ4KWXrTDTZJissGIAKxMcOcoQDUBgwQCX6EHAnHQSAECdeGYyQChr
+CnGBCQNIEMcQEhS6wKGIJlooEYdW0GYREJxxwaQDVIoHIpiqUWmlFwwAwAomWGAEAZNsscklmWBy
+KiddmNCAqE/EKuustNaKRBAAOw==
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/images/8_up.gif
+
+R0lGODlhJQAlANUAADIuLuOYOtvb24eHh/jkyJSUlPrs2VVVVdmLL+y0Z+GKI8jIyOmqV/jltO67
+dPvx5Lu7u0dDQvHGg2BgYPXWmvTVqdB6F/bbt+WdQ6KiorCwsOikTH19fdiCHmlCFd+GHfHJkvDs
+6P3586urq+S5hmxsa+/CfO7j1uqsYu3BiduZS9/f3+KRLj87O+jKpevaxuuwXerUufPOoOfFmmdn
+Zt6jXfzy1PvuysDAwOCracPAu/PRkeKxd+rPr9+CFba2tiH5BAAAAAAALAAAAAAlACUAAAb/wJ9w
+SCwaj8ikcslsOpUcgHRKbQGsWKoWcDhOALRBoZApj85njVozYp/LmcJgcIgUC4DCYjQew/+AcGR9
+CxoRE0QRBzh4W1ItkBEtkpCOHAtfRC0HEBMeFqAdCAgqKjU5PCQzMy49MS8vJychKxARAlGaiAcW
+Pj4KCiwBGwwJDikgMhUXFwQEBg8PItMTK7lDLbu9v8EYGygOEiAVy83O0NIiIRO4AJo0P7y+wAEY
+DOEOG74+DM0G6NPW4WrxDoK8Dx+EbUggIYEvEAQc/KrwL1pAdgPcDYlAo1MvhMLumfCF4cYNAiTR
+RXtwohoHghs7TvjYjYEJBr4CmLTB4teD/39AT9AQMACmkAglPM5jgQGGhAD7KNzg+QvoMwIvhhZN
+VALHTB8fujnFsI/FBRsKfKAw4MzZhRg0Vmzd2PXrL6YwTDjcp2Aki7bMmPWIO/doXZohTezouc8X
+gZMXyJFzQdjoD6ReEQe4t4NC2sYlmVWQQXpGZa6ZwQbb7GBHA4mNfcBoMBqEbRKn6aYOy5QzTm+x
+KVQAkaI4brmWMX/l3VSvLwk3YPtKIAOECQcOeOQ+SmO3WBNkfUhtoG/6jhTZE+TQmlwmYgwMoYpv
+0IDCvgQgHCRAgaIGYY1CtOCeaniB54tr9H3mgF4oEKOCS5YJGM97MDiAkw8JUKBhWixIYNHhBhhg
+8CBRAP6QjUGabVAhVH3toI8C+jEAIgYBBMDOS7pMSCBTxCSwAWM+LAQDAzQGwAILCNxY4om8IATM
+at4wAMOUQ8pY45FHInBAO5pwwosFHYTZQVgICBNiiFcioMAHY3ZgwZbXBBiBBhxIEoEiB+Q5wQQ0
+0FDCnzTsmeegd+pBQ4lRDACBGj9AIAQEOES6wKSTRhopBI5q8AMOC2QwSRGSTMDBqHOIIUYfqPZR
+6gCjlmCFpkUcUAUkkUxy562U0GrFFLA+4euvwAYr7BFBAAA7
+
+------=_NextPart_000_06BF_01CA8BEA.01176900
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.maths.soton.ac.uk/cipher2005/page3.css
+
+BODY {
+	BACKGROUND: url(images/filldown2.jpg) #666666 repeat-y; FONT: 8pt/16pt =
+georgia
+}
+A:link {
+	FONT-WEIGHT: bold; COLOR: #666666; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: bold; COLOR: #666666; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+#top {
+	BACKGROUND-POSITION: 50% top; LEFT: 0px; BACKGROUND-IMAGE: =
+url(images/topbar2.jpg); WIDTH: 800px; BACKGROUND-REPEAT: no-repeat; =
+POSITION: absolute; TOP: 0px; HEIGHT: 232px
+}
+#title {
+	LEFT: 40px; WIDTH: 721px; POSITION: absolute; TOP: 20px; HEIGHT: 36px
+}
+#navbar {
+	FONT-SIZE: 10pt; LEFT: 30px; WIDTH: 721px; COLOR: #ffffff; LINE-HEIGHT: =
+12pt; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif; POSITION: =
+absolute; TOP: 60px; HEIGHT: 36px
+}
+#email {
+	LEFT: 30px; WIDTH: 90px; POSITION: absolute; TOP: 60px; HEIGHT: 105px
+}
+#sponsors {
+	LEFT: 200px; WIDTH: 80px; POSITION: absolute; TOP: 130px; HEIGHT: 150px
+}
+#notice {
+	LEFT: 580px; WIDTH: 195px; POSITION: absolute; TOP: 10px; HEIGHT: 296px
+}
+#pagebody {
+	FONT-SIZE: 9pt; LEFT: 0px; WIDTH: 800px; COLOR: #eee7cb; LINE-HEIGHT: =
+10pt; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif; POSITION: =
+absolute; TOP: 232px; HEIGHT: 6520px
+}
+#leftcontent {
+	LEFT: 0px; MARGIN: 10px; WIDTH: 380px; COLOR: #eee7cb; FONT-FAMILY: =
+Verdana, Geneva, Arial, sans-serif; POSITION: absolute; TOP: 0px; =
+HEIGHT: 6520px
+}
+#rightcontent {
+	MARGIN-TOP: 10px; LEFT: 415px; WIDTH: 325px; COLOR: #000000; =
+FONT-FAMILY: Verdana, Geneva, Arial, sans-serif; POSITION: absolute; =
+TOP: 0px; HEIGHT: 6520px; valign: top
+}
+#rules {
+	MARGIN: 10px; WIDTH: 350px; COLOR: #000000; FONT-FAMILY: Verdana, =
+Geneva, Arial, sans-serif; HEIGHT: 1500px
+}
+#challengeA {
+	LEFT: 0px; MARGIN: 10px; WIDTH: 350px; COLOR: #eee7cb; FONT-FAMILY: =
+Verdana, Geneva, Arial, sans-serif; POSITION: absolute; TOP: 10px; =
+HEIGHT: 6500px
+}
+#challengeB {
+	Z-INDEX: 2; LEFT: 0px; MARGIN: 10px; WIDTH: 305px; COLOR: #000000; =
+POSITION: absolute; TOP: 10px; HEIGHT: 6500px
+}
+#turnover {
+	Z-INDEX: 3; LEFT: 100px; MARGIN: 10px; WIDTH: 150px; POSITION: =
+absolute; TOP: 200px
+}
+#honoursA {
+	LEFT: 0px; MARGIN: 10px; WIDTH: 350px; COLOR: #eee7cb; FONT-FAMILY: =
+Verdana, Geneva, Arial, sans-serif; POSITION: absolute; TOP: 300px
+}
+#rightButt {
+	FONT-SIZE: 8pt; LEFT: 320px; WIDTH: 50px; COLOR: #000000; LINE-HEIGHT: =
+10pt; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif; POSITION: =
+absolute; TOP: 0px; HEIGHT: 1500px; valign: top
+}
+
+------=_NextPart_000_06BF_01CA8BEA.01176900--
