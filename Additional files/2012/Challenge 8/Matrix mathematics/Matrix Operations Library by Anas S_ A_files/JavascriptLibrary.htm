@@ -1,0 +1,358 @@
+
+//next line is a comment simply to trick VisualStudio to color format this as javascript
+//<script type="text/javascript">
+
+// Common javascript library shown on every vWorker page
+
+	// -- toggle links //
+
+	function SlideToggle(strToggleId) {
+	    //Do a slide toggle
+	    //inputs:
+	    //  strToggleId: #<id> for an id and .<class> for a class
+	    //returns: false, so that URL (example: 
+	    //      <a href="#" onclick="return SlideToggle('#idMyDiv');"> )
+	    //      <div id="idMyDiv" style="display:none;"></div>
+	    //  will not move user.
+
+        //note: handles IE7 bug with slow performance by detecting browser in 
+        //server side code and not rendering animation in IE7
+        
+        //note2: bug in jquery with IE doing slide toggle on some tables (doesn't 
+        // restore display mode to table or cell).  In those cases, use this code 
+        //instead: <a href="#" onclick="$('#idItem').toggle();return false;">
+        
+        //note3: additional bug with return false in IE at times, will requires this instead:
+        //instead: <a href="#" onclick="event.returnValue=false;return SlideToggle('#idMyDiv');">
+        
+        
+	    $(strToggleId).slideToggle('fast');
+
+	    return false;
+	}
+	
+	function ShowAnimated(strToggleId) {
+	    //Same as SlideToggle but always does a show
+	    $(strToggleId).show('fast');
+	    return false;
+	}
+
+	function HideAnimated(strToggleId) {
+	    //Same as SlideToggle but always does a hide
+	    $(strToggleId).hide('fast');
+	    return false;
+	}
+
+
+
+	function toggle(targetId) {
+	    // legacy toggle (retrofitted to now call newer SlideToggle)
+	    //note: use SlideToggle instead for new code (since it also does a return in addition).
+
+	    SlideToggle("#" + targetId);
+	    }
+
+    function toggle_plain(targetId) {
+        //toggle without slide (plain)
+
+        if (document.getElementById){
+
+	        target = document.getElementById( targetId );
+		        if (target.style.display == "none"){
+			        target.style.display = "";
+		        } else {
+			        target.style.display = "none";
+		        }
+	        }
+        }
+	
+	function ShowDiv( targetId ){
+  	if (document.getElementById){
+  		target = document.getElementById( targetId );
+		target.style.display = "";
+  		}
+	}
+	function HideDiv( targetId ){
+  	if (document.getElementById){
+  		target = document.getElementById( targetId );
+		target.style.display = "none";
+  		}
+	}
+
+
+  //Jquery bug work around functions
+    function JQueryObject_IsVisible(objJQueryObject){
+    //Determines if Jquery Item is visible or not.  
+    //Note: bug in JQuery causes IsVisible to not always work in IE
+    //see http://www.code-styling.de/english/jquery-132-causes-problems-at-ie-8
+    //So call this instead of objJQueryObject.is(':visible')  
+
+        //if (blnIsIE==true){
+        if (getInternetExplorerVersion==true){
+            //IE--buggy, use a substitute.  See:
+            //http://www.code-styling.de/english/jquery-132-causes-problems-at-ie-8
+            if (objJQueryObject.css('display')=='none'){return false;}
+                else{return true;}
+            }
+        else{
+            //non IE
+            return objJQueryObject.is(':visible');
+            }
+
+  
+    
+    }
+
+    function JQueryObject_Show(objJQueryObject){
+    //Shows a Jquery Item
+    //Note: bug in JQuery causes IsVisible to not always work in some browsers,
+    //so ALWAYS use this method instead of calling objJQueryObject.Show
+    //directly
+    
+        //if (blnIsIE==true){
+        if (getInternetExplorerVersion==true){
+            //IE--buggy, use a substitute.  See:
+            //http://www.code-styling.de/english/jquery-132-causes-problems-at-ie-8
+            objJQueryObject.css('display','inline');
+            //objJQueryObject.css('display','inline-table');
+            }
+        else{
+            //non IE
+            objJQueryObject.show();
+            //objJQueryObject.css('display','inline-table');
+            }
+        
+        
+    }
+
+
+
+function ShowPopupWindow(fileName) {
+    window.location.reload;
+
+    myFloater = window.open('', 'myWindow', 'scrollbars=no,status=no,width=300,height=500');
+    myFloater.location.href = fileName;
+
+    // make sure popup is on top (in case it was minimized)
+    if (window.focus) {
+        myFloater.focus();
+        }
+
+}
+
+function ShowPopupWindowWithScrollbars(fileName) {
+    myFloater = window.open('', 'myWindow', 'scrollbars=yes,resizable=yes,status=no,width=400,height=500');
+    myFloater.location.href = fileName;
+
+    // make sure popup is on top (in case it was minimized)
+    if (window.focus) {
+        myFloater.focus();
+        }
+
+}
+
+function ShowPopupWindowXY(fileName,x,y) {
+    myFloater = window.open('', 'myWindow', 'scrollbars=no,status=no,width=' + x + ',height=' + y);
+    myFloater.location.href = fileName;
+
+    // make sure popup is on top (in case it was minimized)
+    if (window.focus) {
+        myFloater.focus();
+        }
+
+}
+
+function ShowPopupWindowXYWithScrollbars(fileName,x,y) {
+    myFloater = window.open('', 'myWindow', 'scrollbars=yes,resizable=yes,status=no,width=' + x + ',height=' + y);
+    myFloater.location.href = fileName;
+
+    // make sure popup is on top (in case it was minimized)
+    if (window.focus) {
+        myFloater.focus();
+        }
+
+}
+
+function SizeToFit()
+       {
+        window.setTimeout(
+            function()
+            {
+			if (document.body.scrollHeight > screen.height)
+            {
+				switch(screen.height)
+				{
+				case 600:
+				window.resizeTo((document.body.scrollWidth + 20), 565);
+				break;
+				case 768:
+				window.resizeTo((document.body.scrollWidth + 20), 733);
+				break;
+				default:
+				window.resizeTo((document.body.scrollWidth + 20), (document.body.scrollHeight + 67));
+				}
+			} else
+			{
+			if (navigator.appVersion.indexOf('MSIE 7.0') > 0) {
+			window.resizeTo((document.body.scrollWidth + 20), (document.body.scrollHeight + 87));
+			}
+			else {
+			window.resizeTo((document.body.scrollWidth + 20), (document.body.scrollHeight + 67));
+			}
+			}
+			}, 400);
+       }
+
+function ShowHtmlFieldPreviewLink_old(objField) {
+		myFloater = window.open('','myWindow','scrollbars=yes,status=no,width=500,height=500');
+		myFloater.location.href = '/RentACoder/misc/Isolate/PreviewHTMLField.asp?txtField=' + objField.value;
+		}
+
+function ShowHtmlFieldPreviewLink(objForm,objField) {
+
+		strOldAction=objForm.action;
+		strOldTarget = objForm.target;
+		
+		objForm.action='/RentACoder/misc/Isolate/PreviewHTMLField.asp?txtFieldName=' + objField.name;
+		objForm.target='_blank';
+
+		objForm.submit();
+
+		objForm.action=strOldAction;
+		objForm.target=strOldTarget;
+
+		}
+
+function myvoid() {	}
+
+
+function disableForm(theform) {
+	if (document.all || document.getElementById) {
+	    for (i = 0; i < theform.length; i++) {
+	        var tempobj = theform.elements[i];
+			if (tempobj != null) {
+			    if (tempobj.type != null) {
+			        if (tempobj.type.toLowerCase() == "submit" || tempobj.type.toLowerCase() == "reset") {
+				        tempobj.disabled = true;
+			        }
+			    }
+			}
+		}
+		//setTimeout('alert("Your form has been submitted.  Notice how the submit and reset buttons were disabled upon submission.")', 2000);
+		return true;
+	}
+	else {
+	    //alert("The form has been submitted.  But, since you're not using IE 4+ or NS 6, the submit button was not disabled on form submission.");
+		return false;
+	}
+
+}
+
+
+
+
+    function getInternetExplorerVersion()
+    // Returns the version of Internet Explorer or a -1
+    // (indicating the use of another browser).
+    {
+      var rv = -1; // Return value assumes failure.
+      if (navigator.appName == 'Microsoft Internet Explorer')
+      {
+        var ua = navigator.userAgent;
+        var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+        if (re.exec(ua) != null)
+          rv = parseFloat( RegExp.$1 );
+      }
+      return rv;
+    }
+
+
+
+//******************************//
+//custom functions to get window width
+//ridiculously convulted to do it in javascript across browsers 
+//(and can't seem to use jquery to go across windows)
+//******************************//
+function f_clientWidth(robjWindow) {
+	return f_filterResults (
+		robjWindow.innerWidth ? robjWindow.innerWidth : 0,
+		robjWindow.document.documentElement ? robjWindow.document.documentElement.clientWidth : 0,
+		robjWindow.document.body ? robjWindow.document.body.clientWidth : 0
+	);
+}
+
+function f_filterResults(n_win, n_docel, n_body) {
+	var n_result = n_win ? n_win : 0;
+	if (n_docel && (!n_result || (n_result > n_docel)))
+		n_result = n_docel;
+	return n_body && (!n_result || (n_result > n_body)) ? n_body : n_result;
+}
+
+
+//*difficult to do a Replace all in Javascript without regexp (which limits characters) so 
+//this function does it instead*/
+function replaceAll(what, cut, place) {
+    //inputs: what: original (entire) string
+    //      cut: substring to change
+    //     place: substring to replace with
+        
+    return what.split(cut).join(place);
+}
+
+
+
+ function Time(){
+       //purpose:returns current time
+        var d = new Date();
+        var curr_hour = d.getHours();
+        var curr_min = d.getMinutes();
+
+        var curr_sec = d.getSeconds();
+        var curr_msec = d.getMilliseconds();
+
+        return curr_hour + ":" + curr_min + ":" + curr_sec + ":" + curr_msec;
+
+      }
+
+debugprint = function (log_txt) {
+    //purpose: simulate debugprint but to firebug console in firefox (if it exists)
+    if (window.console != undefined) {
+        console.log(log_txt);
+    }
+}
+
+function getParameterByName(url,name)
+{//gets paramater from url. Can set url to current uRL with window.location.search
+//http://stackoverflow.com/questions/901115/get-query-string-values-in-javascript
+  name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+  var regexS = "[\\?&]" + name + "=([^&#]*)";
+  var regex = new RegExp(regexS);
+  var results = regex.exec(url);
+  if(results == null)
+    return "";
+  else
+    return decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+function removeParameterFromURL(url, parameter)
+{//removes paramater from url. Can set url to current URL with window.location.search
+//http://stackoverflow.com/questions/1634748/how-can-i-delete-a-query-string-parameter-in-javascript
+
+  var urlparts= url.split('?');
+
+  if (urlparts.length>=2)
+  {
+      var urlBase=urlparts.shift(); //get first part, and remove from array
+      var queryString=urlparts.join("?"); //join it back up
+
+      var prefix = encodeURIComponent(parameter)+'=';
+      var pars = queryString.split(/[&;]/g);
+      for (var i= pars.length; i-->0;)               //reverse iteration as may be destructive
+          if (pars[i].lastIndexOf(prefix, 0)!==-1)   //idiom for string.startsWith
+              pars.splice(i, 1);
+      url = urlBase+'?'+pars.join('&');
+  }
+  return url;
+}
+
+

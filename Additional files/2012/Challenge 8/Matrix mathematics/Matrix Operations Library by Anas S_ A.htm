@@ -1,0 +1,1940 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0082)http://www.planet-source-code.com/vb/scripts/ShowCode.asp -->
+<HTML><HEAD><TITLE>Matrix Operations Library by Anas S. A.</TITLE><!-- Meta Tags -->
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><!-- Favicon --><LINK rel="shortcut icon" 
+type=image/x-icon href="/vb/2010Redesign/favicon.ico"><!-- CSS --><LINK 
+rel=stylesheet type=text/css 
+href="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/screen.css" 
+media=screen><LINK rel=stylesheet type=text/css 
+href="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/print.css" 
+media=print><!--[if lte IE 7]><link rel="stylesheet" type="text/css" media="screen" href="/vb/2010Redesign/stylesheets/ie.css"/><![endif]--><!-- Javascript -->
+<SCRIPT type=text/javascript 
+src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/jquery.min.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/JavascriptLibrary.htm"></SCRIPT>
+<!--[if lte IE 6]><link rel="stylesheet" type="text/css" media="screen" href="/vb/2010Redesign/javascripts/DD_belatedPNG.js"/><![endif]-->
+<SCRIPT type=text/javascript 
+src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/application.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ckeditorLoader.js"></SCRIPT>
+
+<META name=description 
+content="Matrix Operations Library&#10;About a year ago, I">
+<META name=keywords content=Matrix,Operations,LibraryAbout,year,working,p>
+<META name=title content="Matrix Operations Library by Anas S. A.">
+<META name=Copyright content="Copyright 1997, Exhedra Solutions, Inc.">
+<META name=Creator content="Exhedra Solutions, Inc">
+<META name=Publisher content="Exhedra Solutions, Inc.">
+<META name=Distribution content=Global>
+<META name=Rating content=General>
+<SCRIPT language=Javascript>
+    if (top.location != self.location) 
+		{
+    	top.location = self.location.href
+		}
+</SCRIPT>
+
+<SCRIPT language=JAVASCRIPT><!--
+    function ShowPopupWindowXY(fileName,x,y) {
+    myFloater = window.open('','myWindow','scrollbars=no,status=no,width=' + x + ',height=' + y)
+    myFloater.location.href = fileName;
+}
+//--></SCRIPT>
+
+<META name=GENERATOR content="MSHTML 8.00.7601.17874"></HEAD>
+<BODY class="nojs cat-vb" link=#000080 text=#000000 vLink=#000080>
+<DIV class=page><SPAN id=nointelliTXT>
+<DIV class=header>
+<DIV class=container><A class=logo title="Planet Source Code - Homepage" 
+href="http://www.planet-source-code.com/PlanetSourceCode/default.asp"><IMG 
+border=0 alt=Matrix,Operations,LibraryAbout,year,working,p 
+src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/placeholder.gif" 
+width=2 height=2></A><!--iai--> 
+<DIV class=headinfo>
+<UL>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/scripts/BrowseAllCategories.asp?lngWId=1">Code:</A> 
+  5,258,008. lines</LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/jobs/SearchJobs.asp?lngWId=1">Jobs:</A> 
+  383. postings</LI></UL>
+<P class=legend>Visual Basic Stats:</P>
+<P class=support><A 
+href="http://www.planet-source-code.com/vb/donations/default.asp">How to support 
+the site</A></P></DIV><!-- / .headinfo -->
+<DIV class="advert advert-leaderboard"><A 
+href="http://www.planet-source-code.com/vb/advertisement/scripts/rates.asp?lngWId=1">Sponsored</A> 
+by:<BR>
+<CENTER>
+<DIV style="TEXT-ALIGN: center" id=top_ad><!-- begin ad tag (tile=1) -->
+<SCRIPT type=text/javascript>
+			                                                    //<![CDATA[
+			                                                    ord = window.ord || Math.floor(Math.random() * 1E16);
+			                                                    document.write('<script type="text/javascript" src="http://ad2.netshelter.net/adj/ns.pscode/general;ppos=atf;kw=;tile=1;sz=728x90,970x90;ord=' + ord + '?"><\/script>');
+			                                                    //]]>
+			                                                </SCRIPT>
+<NOSCRIPT><A 
+href="http://ad2.netshelter.net/jump/ns.pscode/general;ppos=atf;kw=;tile=1;sz=728x90,970x90;ord=123456789?" 
+target=_blank><IMG border=0 alt="" 
+src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/general;ppos=atf;kw=;tile=1;sz=728x90,970x90;ord=123456789;ctx=noscript.gif"></A></NOSCRIPT> 
+<!-- end ad tag --></DIV></CENTER><!--quick search box-->
+<CENTER>
+<TABLE cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD noWrap><A 
+      href="http://www.planet-source-code.com/URLSEO/entrancegeneric/ShowWorldSeOnly!asp/lngWId!1/anyname.htm" 
+      alt="All source code in Visual Basic"><IMG border=0 
+      alt="All source code in Visual Basic" 
+      src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/placeholder(1).gif"></A><!--All source code in Visual Basic--> 
+      <A 
+      href="http://www.planet-source-code.com/URLSEO/vb/discussion/AskAProMain!asp/blnURLSEO!true/lngWId!1/anyname.htm" 
+      alt="Ask a Visual Basic Pro Discussion Forum Categories"><IMG border=0 
+      alt="Ask a Visual Basic Pro Discussion Forum Categories" 
+      src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/placeholder(1).gif"></A><!--Ask a Visual Basic Pro Discussion Forum Categories--> 
+      <A 
+      href="http://www.planet-source-code.com/URLSEO/vb/jobs/ListJobs!asp/blnURLSEO!true/txtDescription!/txtCity!/cmbStates!ALL%2CUS/cmSearch!Find+Jobs/chkSalary!1%2C+2%2C+3%2C+4%2C+5%2C+6/blnResetAllVariables!true/lngWId!1/anyname.htm" 
+      alt="All jobs in Visual Basic"><IMG border=0 
+      alt="All jobs in Visual Basic" 
+      src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/placeholder(1).gif"></A><!--All jobs in Visual Basic--></TD></TD></TR></TBODY></TABLE></DIV><!-- / .advert -->
+<DIV class=primary-navigation>
+<UL>
+  <LI class=nav_net><A 
+  href="http://www.planet-source-code.com/vb/default.asp?lngWId=10">.Net (VB and 
+  C#)</A></LI>
+  <LI class=nav_php><A 
+  href="http://www.planet-source-code.com/vb/default.asp?lngWId=8">PHP</A></LI>
+  <LI class=nav_javascript><A 
+  href="http://www.planet-source-code.com/vb/default.asp?lngWId=14">Javascript</A></LI>
+  <LI class=nav_java><A 
+  href="http://www.planet-source-code.com/vb/default.asp?lngWId=2">Java</A></LI>
+  <LI class=nav_c><A 
+  href="http://www.planet-source-code.com/vb/default.asp?lngWId=3">C/C++</A></LI>
+  <LI class=nav_sql><A 
+  href="http://www.planet-source-code.com/vb/default.asp?lngWId=5">SQL</A></LI>
+  <LI class=nav_perl><A 
+  href="http://www.planet-source-code.com/vb/default.asp?lngWId=6">Perl</A></LI>
+  <LI class=nav_asp><A 
+  href="http://www.planet-source-code.com/vb/default.asp?lngWId=4">ASP 
+  classic</A></LI>
+  <LI class=nav_vb><A 
+  href="http://www.planet-source-code.com/vb/default.asp?lngWId=1">VB 
+  classic</A></LI>
+  <LI class=nav_delphi><A 
+  href="http://www.planet-source-code.com/vb/default.asp?lngWId=7">Delphi</A></LI>
+  <LI class=nav_cf><A 
+  href="http://www.planet-source-code.com/vb/default.asp?lngWId=9">Cold 
+  Fusion</A></LI></UL></DIV><!-- / .primary-navigation -->
+<DIV style="TEXT-ALIGN: left" class=category-navigation>
+<UL>
+  <LI class=dropdown><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">Code/Articles</A> 
+
+  <UL>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/scripts/BrowseCategoryOrSearchResults.asp?grpCategories=-1&amp;optSort=DateDescending&amp;txtMaxNumberOfEntriesPerPage=10&amp;blnNewestCode=TRUE&amp;blnResetAllVariables=TRUE&amp;lngWId=1">Newest</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/scripts/BrowseAllCategories.asp?lngWId=1">Browse 
+    categories</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/scripts/search.asp?lngWId=1">Search</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">-----------------------</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/authors/determine_author_type.asp?lngWId=1">Upload 
+    code / articles</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/misc/OpenLetterFromPSCModerators.asp?lngWId=1">Open 
+    letter from moderators</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">-----------------------</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/Tutorial/default.asp?lngWId=1">Articles 
+    &amp; tutorials</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/Bookstore/default.asp?lngWId=1">Recommended 
+    reading</A></LI></UL></LI>
+  <LI class=dropdown><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">Top 
+  Code</A> 
+  <UL>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/contest/ContestInfo.asp?lngWId=1">Coding 
+    contest</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/contest/ContestAndLeaderBoard.asp?lngWId=1">Coding 
+    contest leader board</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/scripts/BrowseCategoryOrSearchResults.asp?grpCategories=-1&amp;txtMaxNumberOfEntriesPerPage=10&amp;blnTopCode=True&amp;blnResetAllVariables=TRUE&amp;lngWId=1">Coding 
+    contest 'All-Time Hall of Fame'</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">-----------------------</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/CodeOfTheDay/signup.asp?lngWId=1">Code 
+    of the day newsletter</A></LI></UL></LI>
+  <LI class=dropdown><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">Community</A> 
+
+  <UL>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/discussion/default.asp?lngWId=1">Ask 
+    a pro discussion forum</A></LI>
+    <LI><A 
+    href="http://www.vworker.com/RentACoder/DotNet/misc/Games.aspx?lngWId=1">Games</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/CodeOfTheDay/signup.asp?lngWId=1">Code 
+    of the day newsletter</A></LI></UL></LI>
+  <LI class=dropdown><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">Jobs</A> 
+
+  <UL>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/jobs/SearchJobs.asp?lngWId=1">Search 
+    for a job</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/jobs/PostJob.asp?lngWId=1">Post a 
+    job</A></LI></UL></LI>
+  <LI class=dropdown><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">Other</A> 
+
+  <UL>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/authentication/MyPlanetSourceCode/CustomizeInfo.asp?lngWId=1">My 
+    profile</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/LinkToUs/default.asp?lngWId=1">How 
+    to link to us</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/about/Awards.asp?lngWId=1">Awards/Reviews/Raves!</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/advertisement/scripts/rates.asp?lngWId=1">Advertising/Media 
+    kit</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/feedback/feedback.asp?lngWId=1">Feedback</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/about/AboutTheSiteAndAuthor.asp?lngWId=1">About 
+    the site</A></LI></UL></LI>
+  <LI class=dropdown><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">Goto…</A> 
+
+  <UL>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/default.asp?lngWId=1">Visual 
+    Basic home</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/PlanetSourceCode/default.asp?lngWId=-1">Site 
+    home</A></LI>
+    <LI><A 
+    href="http://www.planet-source-code.com/vb/scripts/OtherLinks.asp?lngWId=1">Other 
+    sites</A></LI></UL></LI></UL>
+<DIV 
+class=mask></DIV></DIV><!-- / .category-navigation --><!-- / .container --></DIV><!-- / .header --></DIV>
+<HR>
+</SPAN>
+<DIV class=container>
+<DIV class=wrapper1>
+<DIV class=wrapper2>
+<DIV class=wrapper3>
+<DIV class=content>
+<DIV class=block-wrapper><!--code to trap legacy html tags not ending-->
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE style="BACKGROUND-COLOR: #f0f0f0" id=Table2 width="100%">
+        <TBODY>
+        <TR>
+          <TD vAlign=top><FONT size=1 face=verdana><B>Important alert:</B> 
+            <I>(current site time 12/20/2012 6:29:53 AM EDT)</I><BR>
+            <UL>
+              <LI>Love Planet Source Code, but tired of waiting for downloads? 
+              Get all the code instantly on your desktop with <A 
+              href="http://www.exhedra.com/exhedra/PlanetSourceCode/CD.aspx">7 
+              new CDs</A>!</LI>
+              <LI>Checkout the <A 
+              href="http://questions.planet-source-code.com/osqa">new discussion 
+              board</A>, with ranked answers, badges for top participants and 
+              much, much more!</LI></UL>&nbsp;</FONT></TD></TR></TBODY></TABLE>
+      <STYLE type=text/css>PRE {
+	BORDER-BOTTOM: black 1px dashed; BORDER-LEFT: black 1px dashed; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; WIDTH: 600px; PADDING-RIGHT: 4px; FONT-FAMILY: Courier New; MARGIN-LEFT: auto; FONT-SIZE: 10pt; OVERFLOW: auto; BORDER-TOP: black 1px dashed; MARGIN-RIGHT: auto; BORDER-RIGHT: black 1px dashed; PADDING-TOP: 4px
+}
+</STYLE>
+
+      <SCRIPT language=JAVASCRIPT><!--
+			function ShowPopupWindowXY(fileName,x,y) {
+			myFloater = window.open('','myWindow','scrollbars=no,status=no,width=' + x + ',height=' + y)
+			myFloater.location.href = fileName;
+		}
+		//--></SCRIPT>
+
+      <SCRIPT language=JAVASCRIPT><!--
+			function ShowPopupWindowXYWithScrollbars(fileName,x,y) {
+			myFloater = window.open('','myWindow','scrollbars=yes,status=no,width=' + x + ',height=' + y)
+			myFloater.location.href = fileName;
+		}
+		//--></SCRIPT>
+
+      <SCRIPT language=JavaScript>
+	
+    function mShowWindow(strURL) {
+    frmWindow=window.open (strURL, 'newWin', 'width=300,height=400,toolbar=no,status=yes,resizable=no,menubar=no');
+    }
+</SCRIPT>
+
+      <SCRIPT language=JavaScript type=text/javascript>
+	// -- toggle links //
+	function toggle( targetId ){
+  	if (document.getElementById){
+  		target = document.getElementById( targetId );
+  			if (target.style.display == "none"){
+  				target.style.display = "";
+  			} else {
+  				target.style.display = "none";
+  			}
+  		}
+	}
+	function ShowDiv( targetId ){
+  	if (document.getElementById){
+  		target = document.getElementById( targetId );
+		target.style.display = "";
+  		}
+	}
+	function HideDiv( targetId ){
+  	if (document.getElementById){
+  		target = document.getElementById( targetId );
+		target.style.display = "none";
+  		}
+	}
+</SCRIPT>
+<!--note:must put in table to get around formatting problems--><!--with long code-->
+      <TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD class=BgcolorBlack bgColor=black width=419 colSpan=3><!--title start--><!SPAN id=iAd>
+            <TABLE style="BACKGROUND-COLOR: #000000; WIDTH: 100%" border=0 
+            cellSpacing=0 cellPadding=0 width="100%">
+              <TBODY>
+              <TR>
+                <TD class=BgcolorBlack bgColor=black vAlign=center colSpan=3>
+                  <P style="TEXT-ALIGN: left"><FONT color=#ffffff size=3>Matrix 
+                  Operations Library </FONT></P></TD>
+                <TD class=BgcolorBlack bgColor=black vAlign=center>
+                  <TABLE>
+                    <TBODY>
+                    <TR>
+                      <TD>
+                        <P style="TEXT-ALIGN: right"><FONT class=FontSize8pt 
+                        color=#ffffff size=1><A onclick=window.print() 
+                        href="javascript::void"><IMG border=0 
+                        src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/print.jpg" 
+                        width=17 height=14></A></P></FONT></TD>
+                      <TD><A onclick=window.print() 
+                        href="javascript::void"><FONT 
+                        color=white>Print</FONT></A> </TD></TR>
+                    <TR>
+                      <TD><A 
+                        href="http://www.planet-source-code.com/vb/scripts/EmailToFriend.asp?lngWId=1&amp;txtCodeId=42477&amp;txtCodeName=Matrix%2520Operations%2520Library&amp;txtCodeDescription=Matrix%2520Operations%2520Library%0AAbout%2520a%2520year%2520ago%2C%2520I%2520was%2520working%2520on%2520a%2520project%2E%2520The%2520project%2520required%2520many%2520matrix%2520operations%2C%2520that%2520time%2520I%2520really%2520wished%2520that%2520I%2520would%2520find%2520a%2520class%2520or%2520a%2520library%2520with%2520ready%2520functions%2520for%2520matrix%2520manipulations%2520%28like%2520addition%2C%2520inverse%2C%2520multiplication%2C%2520etc%85%29%2520to%2520use%2520in%2520Visual%2520Basic%2E%2520Unfortunately%2520I%2520could%2520not%2520find%2520such%2520a%2520class%2C%2520so%2520I%2520decided%2520to%2520write%2520my%2520own%2520class%2C%2520I%2520called%2520it%2520%22cMathLib%22%2520%2E%2520This%2520class%2520gives%2520the%2520user%2520the%2520flexibility%2520to%2520work%2520with%2520matrices%2520and%2520do%2520operations%2520on%2520them%2E%2520The%2520dimensions%2520of%2520the%2520matrices%2520are%2520neither%2520pre%2Dspecified%2520nor%2520limited%2E%2520The%2520code%2520is%2520highly%2520optimized%2520for%2520fast%2520operation%2E%2520The%2520code%2520attached%2520contains%2520the%2520class%2520file%2520called%2520with%2520a%2520demonstration%2520on%2520how%2520to%2520use%2520it%2E%0A%2520%0AOpperations%2520included%2520in%2520the%2520class%2520are%2520%3A%0AAdd%2C%2520Subtract%2C%2520Determinant%2C%2520Inverse%2C%2520Transpose%2C%2520Multiply%2C%2520atan2%2C%2520arc%2520cos%2C%2520arc%2520sin%2C%2520PI%2C%2520Print%2C%2520MultiplyVectors%2CMagnitude%2520of%2520a%2520Vector%2C%2520scalar%2520multiply%2C%2520and%2520scalar%2520divide%2E%2520%0AI%2520really%2520hope%2520this%2520class%2520would%2520be%2520of%2520any%2520help%2520to%2520any%2520of%2520you%2520who%2520needs%2520to%2520work%2520with%2520matrix%2520operations%2E"><IMG 
+                        border=0 
+                        src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/email.jpg"></A></TD>
+                      <TD><A 
+                        href="http://www.planet-source-code.com/vb/scripts/EmailToFriend.asp?lngWId=1&amp;txtCodeId=42477&amp;txtCodeName=Matrix%2520Operations%2520Library&amp;txtCodeDescription=Matrix%2520Operations%2520Library%0AAbout%2520a%2520year%2520ago%2C%2520I%2520was%2520working%2520on%2520a%2520project%2E%2520The%2520project%2520required%2520many%2520matrix%2520operations%2C%2520that%2520time%2520I%2520really%2520wished%2520that%2520I%2520would%2520find%2520a%2520class%2520or%2520a%2520library%2520with%2520ready%2520functions%2520for%2520matrix%2520manipulations%2520%28like%2520addition%2C%2520inverse%2C%2520multiplication%2C%2520etc%85%29%2520to%2520use%2520in%2520Visual%2520Basic%2E%2520Unfortunately%2520I%2520could%2520not%2520find%2520such%2520a%2520class%2C%2520so%2520I%2520decided%2520to%2520write%2520my%2520own%2520class%2C%2520I%2520called%2520it%2520%22cMathLib%22%2520%2E%2520This%2520class%2520gives%2520the%2520user%2520the%2520flexibility%2520to%2520work%2520with%2520matrices%2520and%2520do%2520operations%2520on%2520them%2E%2520The%2520dimensions%2520of%2520the%2520matrices%2520are%2520neither%2520pre%2Dspecified%2520nor%2520limited%2E%2520The%2520code%2520is%2520highly%2520optimized%2520for%2520fast%2520operation%2E%2520The%2520code%2520attached%2520contains%2520the%2520class%2520file%2520called%2520with%2520a%2520demonstration%2520on%2520how%2520to%2520use%2520it%2E%0A%2520%0AOpperations%2520included%2520in%2520the%2520class%2520are%2520%3A%0AAdd%2C%2520Subtract%2C%2520Determinant%2C%2520Inverse%2C%2520Transpose%2C%2520Multiply%2C%2520atan2%2C%2520arc%2520cos%2C%2520arc%2520sin%2C%2520PI%2C%2520Print%2C%2520MultiplyVectors%2CMagnitude%2520of%2520a%2520Vector%2C%2520scalar%2520multiply%2C%2520and%2520scalar%2520divide%2E%2520%0AI%2520really%2520hope%2520this%2520class%2520would%2520be%2520of%2520any%2520help%2520to%2520any%2520of%2520you%2520who%2520needs%2520to%2520work%2520with%2520matrix%2520operations%2E"><FONT 
+                        color=white>Email</FONT></A></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!--title end--><!/span></TD></TR>
+        <TR>
+          <TD vAlign=top>
+            <TABLE style="TABLE-LAYOUT: fixed" border=0 width="100%" 
+            bgColor=white>
+              <TBODY>
+              <TR vAlign=top>
+                <TD width=100><!zip file><A 
+                  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#zip"><IMG 
+                  border=0 alt="winzip icon" align=middle 
+                  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/winzipicon_medium.gif" 
+                  width=42 height=41></A><BR><IFRAME vspace=0 height=86 
+                  marginHeight=0 
+                  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/jstags.htm" 
+                  frameBorder=0 width=108 marginWidth=0 scrolling=no hspace=0 
+                  bgcolor="white"></IFRAME></TD>
+                <TD vAlign=top><FONT color=#000080><FONT size=2><B>Submitted 
+                  on:</B> 1/16/2003 3:31:04 PM<BR><B>By:</B> Anas S. A.&nbsp; 
+                  <BR><B>Level:</B> Advanced<BR><B>User Rating:</B> <IMG 
+                  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/RatingSmall.jpg"> 
+                  <IMG 
+                  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/RatingSmall.jpg"> 
+                  <IMG 
+                  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/RatingSmall.jpg"> 
+                  <IMG 
+                  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/RatingSmall.jpg"> 
+                  <IMG 
+                  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/RatingHalfSmall.jpg"> 
+                  By 49 Users<BR><B>Compatibility:</B>VB 4.0 (32-bit),&nbsp;VB 
+                  5.0,&nbsp;VB 6.0<BR><BR>Users have accessed 
+                  this&nbsp;code&nbsp; 36531 times.<BR>&nbsp;</FONT></FONT> </TD>
+                <TD width=300>
+                  <CENTER></CENTER></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width=419 colSpan=3><FONT color=#000080>&nbsp;</FONT> </TD></TR>
+        <TR>
+          <TD bgColor=white width=419 colSpan=3><FONT color=#000000 
+            size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Matrix Operations Library About 
+            a year ago, I was working on a project. The project required many 
+            matrix operations, that time I really wished that I would find a 
+            class or a library with ready functions for matrix manipulations 
+            (like addition, inverse, multiplication, etc�) to use in Visual 
+            Basic. Unfortunately I could not find such a class, so I decided to 
+            write my own class, I called it "cMathLib" . This class gives the 
+            user the flexibility to work with matrices and do operations on 
+            them. The dimensions of the matrices are neither pre-specified nor 
+            limited. The code is highly optimized for fast operation. The code 
+            attached contains the class file called with a demonstration on how 
+            to use it. Opperations included in the class are : Add, Subtract, 
+            Determinant, Inverse, Transpose, Multiply, atan2, arc cos, arc sin, 
+            PI, Print, MultiplyVectors,Magnitude of a Vector, scalar multiply, 
+            and scalar divide. I really hope this class would be of any help to 
+            any of you who needs to work with matrix 
+operations.<BR></FONT></TD></TR>
+        <TR>
+          <TD colSpan=3><!center><!changed><BR><IMG style="MAX-WIDTH: 700px" 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/PIC2003116153149111.gif"><!/center></TD></TR>
+        <TR>
+          <TD colSpan=3>&nbsp;</TD></TR>
+        <TR>
+          <TD bgColor=white colSpan=1></TD></TR>
+        <TR>
+          <TD colSpan=3>
+            <CENTER><FONT size=3>Is this code not quite what you want? Click 
+            here for <A 
+            href="http://www.vworker.com/RentACoder/DotNet/advertisement/Programming.aspx?txtFromURL=PSC_VisualBasic">custom 
+            coding</A>.<BR>&nbsp; </CENTER>
+            <HR>
+            </FONT></TD></TR>
+        <TR>
+          <TD bgColor=#dbdbdb colSpan=3><SPAN id=nointelliTXT><FONT size=3><A 
+            name=zip><A 
+            href="http://www.planet-source-code.com/vb/scripts/ShowZip.asp?lngWId=1&amp;lngCodeId=42477&amp;strZipAccessCode=tp%2FM424770711"><IMG 
+            border=0 alt="winzip icon" 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/winzipicon_medium(1).gif" 
+            width=42 height=41>Download code</A><BR><BR><FONT class=FontSize8pt 
+            size=1>Note: Due to the size or complexity of this submission, the 
+            author has submitted it as a .zip file to shorten your download 
+            time. Afterdownloading it, you will need a program like <A 
+            href="http://www.winzip.com/">Winzip</A> to decompress it.Virus 
+            note:All files are scanned once-a-day by Planet Source Code for 
+            viruses, but new viruses come out every day, so no prevention 
+            program can catch 100% of them. <B>For your own safety</B>, please: 
+            <OL class=olNormal>
+              <LI>Re-scan downloaded files using your personal virus checker 
+              before using it.</LI>
+              <LI>NEVER, EVER run compiled files (.exe's, .ocx's, .dll's 
+              etc.)--only run source code.</LI>
+              <LI>Scan the source code with <A 
+              href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=22222&amp;lngWId=1">Minnow's</A> 
+              Project Scanner </LI></OL></B><BR>If you don't have a virus scanner, 
+            you can get one at many places on the net including:<A 
+            href="http://click.linksynergy.com/fs-bin/stat?id=yV5pn3d6VCs&amp;offerid=13772&amp;type=3&amp;subid=0">McAfee.com</A> 
+            <IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/show.txt" 
+            width=1 height=1> <BR><BR><!/font></FONT></FONT></SPAN></TD></TR>
+        <TR>
+          <TD colSpan=3><SPAN name="KonaFilter"><FONT class=FontSize8pt 
+            size=1>&nbsp;<BR><!center>Terms of 
+            Agreement:&nbsp;&nbsp;&nbsp;<BR>By using this code, you agree to the 
+            following terms...&nbsp;&nbsp;&nbsp;<BR>
+            <OL>
+              <LI>You may use this code in your own programs (and may compile it 
+              into a program and distribute it in compiled format for languages 
+              that allow it) freely and with no charge.</LI>
+              <LI>You MAY NOT redistribute this code (for example to a web site) 
+              without written permission from the original author. Failure to do 
+              so is a violation of copyright laws.&nbsp;&nbsp;&nbsp;</LI>
+              <LI>You may link to this code from another website, but ONLY if it 
+              is not wrapped in a frame.&nbsp;</LI>
+              <LI>You will abide by any additional copyright restrictions which 
+              the author may have placed in the code or code's description. 
+            </LI></OL></SPAN></FONT></TD></TR></SPAN>
+        <TR>
+          <TD align=middle>
+            <TABLE width=336 height=280>
+              <TBODY>
+              <TR>
+                <TD><!-- begin ad tag inlined-delayed (pscode/visualbasic;300x250,336x280) -->
+                  <SCRIPT type=text/javascript>
+// declare the ad zone
+var NS_AdZone = "http://ad2.netshelter.net/adj/ns.pscode/visualbasic;ppos=btf;kw=;tile=2;dcopt=ist;sz=300x250,336x280;ord=";
+// NS code
+if(!NS_Ads){var NS_AdDivs=Array();var NS_AdZones=Array();var NS_Ads=1;};var NS_sz=NS_AdZone.substring(NS_AdZone.indexOf("sz=")+3);NS_sz=NS_sz.substring(0,NS_sz.indexOf(";"));if(NS_sz.indexOf(","))NS_sz=NS_sz.substring(0,NS_sz.indexOf(","));NS_sz=NS_sz.split("x");var NS_AdDiv="ns_ad"+NS_Ads;document.write('<div id="'+NS_AdDiv+'" style="min-width:'+NS_sz[0]+'px;min-height:'+NS_sz[1]+'px;"></div>');NS_AdDivs.push(NS_AdDiv);NS_AdZones.push(NS_AdZone);NS_Ads++;
+</SCRIPT>
+                  <NOSCRIPT><A 
+                  href="http://ad2.netshelter.net/jump/ns.pscode/visualbasic;ppos=btf;kw=;tile=2;sz=300x250,336x280;ord=123456789?" 
+                  target=_blank><IMG border=0 alt="" 
+                  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/visualbasic;ppos=btf;kw=;tile=2;sz=300x250,336x280;ord=123456789;ctx=noscript.gif"></A> 
+                  </NOSCRIPT><!-- end ad tag --></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD bgColor=white colSpan=3>
+            <P style="TEXT-ALIGN: left"><BR><A 
+            href="http://www.planet-source-code.com/vb/scripts/BrowseCategoryOrSearchResults.asp?lngWId=1&amp;blnAuthorSearch=TRUE&amp;lngAuthorId=2212537951&amp;strAuthorName=Anas%20S.%20A.&amp;txtMaxNumberOfEntriesPerPage=25"><FONT 
+            color=#000080 size=2>Other 2 submission(s) by this 
+            author</FONT></A></P></TD></TR>
+        <TR>
+          <TD colSpan=3>
+            <P>&nbsp;</P></TD></TR>
+        <TR>
+          <TD width=419 colSpan=3>&nbsp;</TD></TR>
+        <TR>
+          <TD class=BgcolorBlack bgColor=black width=419 colSpan=3><FONT 
+            color=white><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16>&nbsp;Report Bad Submission</FONT></TD></TR>
+        <TR>
+          <TD bgColor=white colSpan=3>
+            <FORM method=post name=BadCode 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1&amp;txtCodeDescription=Matrix+Operations+Library%0AAbout+a+year+ago%2C+I+was+working+on+a+project%2E+The+project+required+many+matrix+operations%2C+that+time+I+really+wished+that+I+would+find+a+class+or+a+library+with+ready+functions+for+matrix+manipulations+%28like+addition%2C+inverse%2C+multiplication%2C+etc%85%29+to+use+in+Visual+Basic%2E+Unfortunately+I+could+not+find+such+a+class%2C+so+I+decided+to+write+my+own+class%2C+I+called+it+%22cMathLib%22+%2E+This+class+gives+the+user+the+flexibility+to+work+with+matrices+and+do+operations+on+them%2E+The+dimensions+of+the+matrices+are+neither+pre%2Dspecified+nor+limited%2E+The+code+is+highly+optimized+for+fast+operation%2E+The+code+attached+contains+the+class+file+called+with+a+demonstration+on+how+to+use+it%2E%0A+%0AOpperations+included+in+the+class+are+%3A%0AAdd%2C+Subtract%2C+Determinant%2C+Inverse%2C+Transpose%2C+Multiply%2C+atan2%2C+arc+cos%2C+arc+sin%2C+PI%2C+Print%2C+MultiplyVectors%2CMagnitude+of+a+Vector%2C+scalar+multiply%2C+and+scalar+divide%2E+%0AI+really+hope+this+class+would+be+of+any+help+to+any+of+you+who+needs+to+work+with+matrix+operations%2E><!img src="/vb/scripts/comments/images/PscWorldSmall.jpg" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><FONT 
+            size=2>Use this form to notify us if this entry should be deleted 
+            (i.e contains no code, is a virus, etc.).<BR>This submission should 
+            be removed because: <INPUT size=30 type=text name=txtReason><INPUT value="Report it!" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=true type=hidden name=blnReportingBadCode><INPUT value=42477 
+            type=hidden name=lngCodeId><INPUT value="Matrix Operations Library" 
+            type=hidden name=txtCodeName><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></TD></TR><!table border="0" cellpadding="0" cellspacing="0" width="90%">
+        <TR>
+          <TD width=419 colSpan=3>&nbsp;</TD></TR>
+        <TR>
+          <TD class=BgcolorBlack bgColor=black width=419 colSpan=3><FONT 
+            color=white>Your Vote!</FONT></TD></TR>
+        <TR>
+          <TD bgColor=white width=419 colSpan=3>
+            <SCRIPT language=JavaScript type=text/javascript><!--
+function FrontPage_Form6_Validator(theForm)
+{
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.optCodeRatingValue.length;  i++)
+  {
+    if (theForm.optCodeRatingValue[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"Code Rating\" options.");
+    return (false);
+  }
+  return (true);
+}
+//--></SCRIPT>
+
+            <FORM language=JavaScript 
+            onsubmit="return FrontPage_Form6_Validator(this)" method=post 
+            name=FrontPage_Form6 
+            action=/vb/scripts/voting/VoteOnCodeRating.asp?lngWId=1><FONT><FONT 
+            size=2><BR><FONT>What do you think of this code(in the Advanced 
+            category)?</FONT><BR><FONT class=FontSize8pt size=1>(The code with 
+            your highest vote will win this month's <A 
+            href="http://www.planet-source-code.com/vb/contest/contest.asp?lngWId=1">coding 
+            contest!)</A></FONT><BR><INPUT value=5 type=radio 
+            name=optCodeRatingValue>Excellent &nbsp;<INPUT value=4 type=radio 
+            name=optCodeRatingValue>Good &nbsp;<INPUT value=3 type=radio 
+            name=optCodeRatingValue>Average &nbsp;<INPUT value=2 type=radio 
+            name=optCodeRatingValue>Below Average &nbsp;<INPUT value=1 
+            type=radio name=optCodeRatingValue>Poor <INPUT value=Rate&nbsp;It! type=submit name=cmdRateIt> <INPUT 
+            value=42477 type=hidden name=txtCodeId> <INPUT 
+            value="Matrix Operations Library" type=hidden name=txtCodeName> 
+            <INPUT value=243 type=hidden name=intUserRatingTotal> <INPUT 
+            value=49 type=hidden name=intNumOfUserRatings> </FORM><A 
+            href="http://www.planet-source-code.com/vb/scripts/voting/VoteLog.asp?txtCodeId=42477&amp;txtCodeName=Matrix%20Operations%20Library&amp;intUserRatingTotal=243&amp;intNumOfUserRatings=49&amp;lngWid=1">See 
+            Voting Log</A>. If this code was not quite what you wanted, then 
+            click here for <A 
+            href="http://www.vworker.com/RentACoder/DotNet/advertisement/Programming.aspx?txtFromURL=PSC_VisualBasic">custom 
+            coding</A>. </FONT></FONT></TD></TR><!/table><!table border="0" cellpadding="0" cellspacing="0" width="90%">
+        <TR>
+          <TD colSpan=3>&nbsp;</TD></TR><!/table>
+        <TR>
+          <TD class=BgcolorBlack bgColor=black width=419 colSpan=3><FONT 
+            color=#ffffff>Other User Comments</FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_154482></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/16/2003 4:44:51 PM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=7742958406&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp>BAS_ARM<!/xmp></A><BR><BR>5* 
+            (simple, clear &amp; most of all usefull)<BR>Some functions may 
+            generated for multi-dimencional arrays.<BR>If anyone have the time 
+            he could writte code independed of array dimensions (maybee checking 
+            the number of array dimencions with the error in finding the Ubound 
+            etc)<FONT class=FontSize8pt size=1><BR>(If this comment was 
+            disrespectful, please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_154482');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_154482>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=154482 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="5* (simple, clear &amp; most of all usefull)&#13;&#10;Some functions may generated for multi-dimencional arrays.&#13;&#10;If anyone have the time he could writte code independed of array dimensions (maybee checking the number of array dimencions with the error in finding the Ubound etc)" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_154491></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/16/2003 7:12:50 PM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=4427702973&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp><!/xmp></A><BR><BR>Excellent, 
+            matrix operations can be a pain in the a*s unless you have a 
+            programmable calculator. Thanks for sharing it.<FONT 
+            class=FontSize8pt size=1><BR>(If this comment was disrespectful, 
+            please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_154491');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_154491>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=154491 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="Excellent, matrix operations can be a pain in the a*s unless you have a programmable calculator. Thanks for sharing it." 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_154546></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/17/2003 4:28:11 AM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=7744115086&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp><!/xmp></A><BR><BR>this 
+            code is perfect! it's fast, clear n usefull.really thanks for 
+            sharing :)<FONT class=FontSize8pt size=1><BR>(If this comment was 
+            disrespectful, please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_154546');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_154546>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=154546 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="this code is perfect! it's fast, clear n usefull.really thanks for sharing :)" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_154553></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/17/2003 5:19:39 AM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=33199792&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp>M.C<!/xmp></A><BR><BR>Didnt 
+            test it jet, but 5 globes(I do belive to descriptions)<FONT 
+            class=FontSize8pt size=1><BR>(If this comment was disrespectful, 
+            please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_154553');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_154553>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=154553 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="Didnt test it jet, but 5 globes(I do belive to descriptions)" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_154574></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/17/2003 7:35:23 AM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=8849354417&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp><!/xmp></A><BR><BR>Keep 
+            Up the good work, thanks for sharing this code u saved me !!!<FONT 
+            class=FontSize8pt size=1><BR>(If this comment was disrespectful, 
+            please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_154574');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_154574>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=154574 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="Keep Up the good work, thanks for sharing this code u saved me !!!" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_154615></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/17/2003 1:11:03 PM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=8849383467&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp><!/xmp></A><BR><BR>impressive 
+            work well explained easy and above all does the work, i never 
+            thought that any one would share such a library for free. Thnaks 
+            alot, now i can work on my project without writing any matrix 
+            functions. the code is fast !!<FONT class=FontSize8pt size=1><BR>(If 
+            this comment was disrespectful, please <A 
+            title="click to toggle description" 
+            onclick="toggle('ReportBadItem_154615');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_154615>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=154615 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="impressive work well explained easy and above all does the work, i never thought that any one would share such a library for free. Thnaks alot, now i can work on my project without writing any matrix functions. the code is fast !!" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_154637></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/17/2003 4:02:13 PM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=885533507&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp>The 
+            New iSoftware Company!<!/xmp></A><BR><BR>Want to help me take this 
+            to vb .net?<FONT class=FontSize8pt size=1><BR>(If this comment was 
+            disrespectful, please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_154637');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_154637>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=154637 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="Want to help me take this to vb .net?" type=hidden 
+            name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_154662></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/17/2003 5:48:15 PM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=8849401807&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp><!/xmp></A><BR><BR>Good 
+            work!! you deserve five stars<FONT class=FontSize8pt size=1><BR>(If 
+            this comment was disrespectful, please <A 
+            title="click to toggle description" 
+            onclick="toggle('ReportBadItem_154662');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_154662>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=154662 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT value="Good work!! you deserve five stars" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_154700></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/17/2003 9:32:39 PM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=8849412097&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp><!/xmp></A><BR><BR>cool 
+            this class is a saver ,though i wished u had eigen vectors and rank 
+            functions in it too!! anyways thanks for sharing it :)<FONT 
+            class=FontSize8pt size=1><BR>(If this comment was disrespectful, 
+            please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_154700');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_154700>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=154700 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="cool this class is a saver ,though i wished u had eigen vectors and rank functions in it too!! anyways thanks for sharing it :)" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_154904></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/19/2003 3:23:32 AM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=442673843&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp>Robert 
+            Rayment<!/xmp></A><BR><BR>Excellent and useful*****<FONT 
+            class=FontSize8pt size=1><BR>(If this comment was disrespectful, 
+            please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_154904');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_154904>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=154904 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT value="Excellent and useful*****" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_154924></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/19/2003 5:37:34 AM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=5531278404&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp>Peter 
+            Wilson<!/xmp></A><BR><BR>Keep up the good work!<FONT 
+            class=FontSize8pt size=1><BR>(If this comment was disrespectful, 
+            please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_154924');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_154924>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=154924 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT value="Keep up the good work!" type=hidden 
+            name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_154945></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/19/2003 9:37:33 AM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=8849498897&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp><!/xmp></A><BR><BR>u 
+            really did a good job man!<FONT class=FontSize8pt size=1><BR>(If 
+            this comment was disrespectful, please <A 
+            title="click to toggle description" 
+            onclick="toggle('ReportBadItem_154945');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_154945>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=154945 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT value="u really did a good job man!" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_155089></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/20/2003 6:46:40 AM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=8849551467&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp><!/xmp></A><BR><BR>This 
+            is exactly what i want for my project thanx alot<FONT 
+            class=FontSize8pt size=1><BR>(If this comment was disrespectful, 
+            please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_155089');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_155089>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=155089 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="This is exactly what i want for my project thanx alot" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_155108></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/20/2003 9:37:52 AM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=8849552027&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp><!/xmp></A><BR><BR>easy 
+            well explained a definite 5 starts good work!<FONT class=FontSize8pt 
+            size=1><BR>(If this comment was disrespectful, please <A 
+            title="click to toggle description" 
+            onclick="toggle('ReportBadItem_155108');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_155108>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=155108 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="easy well explained a definite 5 starts good work!" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_155299></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/21/2003 12:40:24 PM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=663858745&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp>Dhaval 
+            Faria<!/xmp></A><BR><BR>its really excellent.. I was looking for 
+            this only.. I done this Matrix operationg.. Addition and Subtraction 
+            in VB.NET and now goin for more.. like inverse and all, but at the 
+            mean time, I found your.. so I get proper logic.. thanks man.. 5 
+            globes from me.<FONT class=FontSize8pt size=1><BR>(If this comment 
+            was disrespectful, please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_155299');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_155299>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=155299 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="its really excellent.. I was looking for this only.. I done this Matrix operationg.. Addition and Subtraction in VB.NET and now goin for more.. like inverse and all, but at the mean time, I found your.. so I get proper logic.. thanks man.. 5 globes from me." 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_155359></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/21/2003 5:49:27 PM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=8849712117&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp><!/xmp></A><BR><BR>Hey 
+            man its an awesome thing u did there, keep the hard work....urs<FONT 
+            class=FontSize8pt size=1><BR>(If this comment was disrespectful, 
+            please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_155359');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_155359>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=155359 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="Hey man its an awesome thing u did there, keep the hard work....urs" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_156112></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/27/2003 1:30:13 AM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=7748117966&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp><!/xmp></A><BR><BR>please 
+            send matrix library for multi and sum<FONT class=FontSize8pt 
+            size=1><BR>(If this comment was disrespectful, please <A 
+            title="click to toggle description" 
+            onclick="toggle('ReportBadItem_156112');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_156112>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=156112 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="please send matrix library for multi and sum" type=hidden 
+            name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_168545></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>4/17/2003 6:43:06 AM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=2211248831&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp>R. 
+            C. Sharma<!/xmp></A><BR><BR><BR>function asin should be as 
+            follows<BR><BR>Public Function asin(ByVal X As Double) As 
+            Double<BR>if x*x-1 then<BR>asin=pi/2<BR>else<BR>asin = Atn(X / 
+            (Sqr(Abs(1 - X * X)) + 1E-200))<BR>endif<BR>End Function<FONT 
+            class=FontSize8pt size=1><BR>(If this comment was disrespectful, 
+            please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_168545');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_168545>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=168545 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="&#13;&#10;function asin should be as follows&#13;&#10;&#13;&#10;Public Function asin(ByVal X As Double) As Double&#13;&#10;if x*x-1 then&#13;&#10;asin=pi/2&#13;&#10;else&#13;&#10; asin = Atn(X / (Sqr(Abs(1 - X * X)) + 1E-200))&#13;&#10;endif&#13;&#10;End Function" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_233020></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>8/24/2004 4:23:01 PM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=2289164921&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp><!/xmp></A><BR><BR>U 
+            saved my a*s men, have an assignment from school requiring matrices, 
+            very impressive <FONT class=FontSize8pt size=1><BR>(If this comment 
+            was disrespectful, please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_233020');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_233020>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=233020 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="U saved my a*s men, have an assignment from school requiring matrices, very impressive " 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_247291></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>12/27/2004 4:40:43 PM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=2298761291&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp><!/xmp></A><BR><BR>problems 
+            with download of Visual Basic Matrix routines - any suggestions. 
+            Would like to get a copy of the source code for a project I'm 
+            working on.<FONT class=FontSize8pt size=1><BR>(If this comment was 
+            disrespectful, please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_247291');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_247291>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=247291 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="problems with download of Visual Basic Matrix routines - any suggestions.  Would like to get a copy of the source code for a project I'm working on." 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_249511></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>1/11/2005 10:12:04 PM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=2299679131&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp><!/xmp></A><BR><BR>when 
+            I try with this :<BR>1 2 3 4<BR>5 6 7 8<BR>9 10 11 12<BR>13 14 15 
+            16<BR><BR>and do operation 5*A<BR>I got the result as<BR>Answer 5A = 
+            <BR><BR>5.0000 10.0000 15.0000 20.0000<BR>25.0000 30.0000 35.0000 
+            40.0000<BR>45.0000 50.0000 5.0000 60.0000<BR>65.0000 -70.0000 
+            75.0000 80.0000<BR><BR>Why the value 5*14 become -70.000 ?<FONT 
+            class=FontSize8pt size=1><BR>(If this comment was disrespectful, 
+            please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_249511');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_249511>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=249511 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="when I try with this :&#13;&#10;1 2 3 4&#13;&#10;5 6 7 8&#13;&#10;9 10 11 12&#13;&#10;13 14 15 16&#13;&#10;&#13;&#10;and do operation 5*A&#13;&#10;I got the result as&#13;&#10;Answer 5A = &#13;&#10;&#13;&#10;    5.0000      10.0000  15.0000  20.0000&#13;&#10;  25.0000      30.0000  35.0000  40.0000&#13;&#10;  45.0000      50.0000    5.0000  60.0000&#13;&#10;  65.0000     -70.0000  75.0000  80.0000&#13;&#10;&#13;&#10;Why the value 5*14 become -70.000 ?" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_293669></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>5/17/2006 3:00:02 AM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=33147149182&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp>CL 
+            Hang<!/xmp></A><BR><BR>I am self-learner.<BR>Now doing 
+            project..<BR>I would like to ask is this class <BR>can perform 
+            calculation with unknown <BR>as below :(3x1) x (1x3)<BR><BR><BR>[X] 
+            x [1 2 X ] = [ X 2X X^2 ]<BR>[1] [ 1 2 X ] <BR>[2] [ 2 4 2X 
+            ]<BR><BR>I really need to know, please help me<BR><BR><BR><BR>Please 
+            give help in source code.<BR><BR>Thanks<BR><FONT class=FontSize8pt 
+            size=1><BR>(If this comment was disrespectful, please <A 
+            title="click to toggle description" 
+            onclick="toggle('ReportBadItem_293669');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_293669>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=293669 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="I am self-learner.&#13;&#10;Now doing project..&#13;&#10;I would like to ask is this class &#13;&#10;can perform calculation with unknown &#13;&#10;as below :(3x1) x (1x3)&#13;&#10;&#13;&#10;&#13;&#10;[X] x [1 2 X ] = [  X   2X   X^2   ]&#13;&#10;[1]              [  1   2     X    ]       &#13;&#10;[2]              [  2   4     2X   ]&#13;&#10;&#13;&#10;I really need to know, please help me&#13;&#10;&#13;&#10; &#13;&#10;&#13;&#10;Please give help in source code.&#13;&#10;&#13;&#10;Thanks&#13;&#10;" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_310511></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>3/29/2007 12:26:49 PM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=22104303541&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp>kmza<!/xmp></A><BR><BR>Just 
+            an important question:<BR>Is that code valide to inverse 
+            non-symmetrical matrices or just symmetrical one? <FONT 
+            class=FontSize8pt size=1><BR>(If this comment was disrespectful, 
+            please <A title="click to toggle description" 
+            onclick="toggle('ReportBadItem_310511');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_310511>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=310511 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="Just an important question:&#13;&#10;Is that code valide to inverse non-symmetrical matrices or just symmetrical one? " 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR>
+        <TR bgColor=white>
+          <TD colSpan=3><FONT size=2><A name=FeedbackId_319997></A><FONT 
+            class=FontSize8pt color=black size=1><FONT size=2><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/document.png" 
+            width=16 height=16><I>3/10/2008 1:16:28 PM</I></FONT>:&nbsp;<A 
+            href="http://www.planet-source-code.com/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=77482084786&amp;txtReferralPage=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1"><!xmp>R.Warwick<!/xmp></A><BR><BR>Unlike 
+            every other atan2 Visual Basic function in the public domain, this 
+            one actually appears to work. (if there's one that does work I don't 
+            know about, apologies)<FONT class=FontSize8pt size=1><BR>(If this 
+            comment was disrespectful, please <A 
+            title="click to toggle description" 
+            onclick="toggle('ReportBadItem_319997');return false;" 
+            href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=42477&amp;lngWId=1#">report 
+            it</A>.) 
+            <DIV style="DISPLAY: none" id=ReportBadItem_319997>
+            <FORM id=form4 method=post name=form4 
+            action=/vb/scripts/ReportBadItem.asp?lngWId=1><IMG border=0 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/delete2.png" 
+            width=16 height=16> <!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" vstyle="text-align: left" style="text-align: left"><SMALL><!br>Thanks 
+            for helping to "Keep the Planet Clean".<BR>This comment should be 
+            removed because:<INPUT size=30 type=text name=txtReason><INPUT value="Report it" type=submit name=cmSubmit></FONT></SMALL><INPUT 
+            value=false type=hidden name=blnReportingBadCode><INPUT value=319997 
+            type=hidden name=lngCommentId><INPUT value=42477 type=hidden 
+            name=lngCodeId><INPUT value="Matrix Operations Library" type=hidden 
+            name=txtCodeName><INPUT 
+            value="Unlike every other atan2 Visual Basic function in the public domain, this one actually appears to work. (if there's one that does work I don't know about, apologies)" 
+            type=hidden name=txtComment><INPUT value=vb type=hidden 
+            name=lngWorldPrefix></FORM></DIV><BR>&nbsp;<BR></FONT></FONT></TD></TR></TBODY></TABLE>
+      <TABLE border=0>
+        <TBODY>
+        <TR>
+          <TD colSpan=2></TD>
+          <TD>
+            <SCRIPT type=text/javascript><!--
+google_ad_client = "pub-5277510158940819";
+google_ad_width = 336;
+google_ad_height = 280;
+google_ad_format = "336x280_as";
+google_ad_type = "text_image";
+//2007-05-18: PlanetSourceCode
+google_ad_channel = "6146776907";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "000080";
+google_color_text = "000000";
+google_color_url = "000080";
+//-->
+</SCRIPT>
+
+            <SCRIPT type=text/javascript 
+            src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/show_ads.js">
+</SCRIPT>
+          </TD></TR></TBODY></TABLE>
+  <TR>
+    <TD colSpan=3><FONT size=2></FONT></TD></TR>
+  <TR>
+    <TD bgColor=black colSpan=3>
+      <TABLE width="100%" bgColor=black>
+        <TBODY>
+        <TR>
+          <TD><B><FONT color=#ffffff><A name=AddYourFeedback></A>Add Your 
+            Feedback!<BR><BR></FONT></B></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD bgColor=white width=419 colSpan=3><FONT><FONT size=2>Note:Not only 
+      will your feedback be posted, but an email will be sent to the code's 
+      author from the email account you registered on the site, so you can 
+      correspond directly.<BR></FONT><BR><B><FONT size=2>NOTICE: The author of 
+      this code has been kind enough to share it with you.&nbsp; If you have a 
+      criticism, please state it politely or it will be deleted.<BR><BR><FONT 
+      class=FontSize8pt size=1>For feedback not related to this particular 
+      code,&nbsp;please click <A 
+      href="http://www.planet-source-code.com/vb/feedback/feedback.asp?lngWId=1&amp;intTypeOfInquiry=3">here</A>.<BR>&nbsp;</FONT></FONT></B></FONT> 
+    </TD></TR>
+  <TR>
+    <TD bgColor=#e9e4ed colSpan=3>
+      <CENTER>To post feedback, first please <A 
+      href="http://www.planet-source-code.com/vb/authentication/Login.asp?txtReturnURL=http%3A%2F%2Fwww%2Eplanet%2Dsource%2Dcode%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1#AddYourFeedback">login</A>.</CENTER><BR></TD></TR></TBODY></TABLE><!-- / code to trap legacy html tags not ending--></DIV><!-- / .block-wrapper --></DIV><!-- / .content --><SPAN 
+id=nointelliTXT>
+<DIV class=sidebar>
+<DIV class="box box-first box-search">
+<H3>Quick search for</H3>
+<DIV class=box-wrap>
+<FORM id=frmSearch method=post name=frmSearch 
+action=/vb/scripts/includes/TranslateFormVarsToURLString.asp?txtURL=%2Fvb%2Fscripts%2FBrowseCategoryOrSearchResults%2Easp>
+<FIELDSET><!--input type="hidden" value="TRUE" name="blnWorldDropDownUsed"/--><SELECT 
+name=lngWId> <OPTION value="">Choose Language…</OPTION> <OPTION 
+  value=10>.Net</OPTION> <OPTION value=4>ASP / VbScript</OPTION> <OPTION 
+  value=3>C / C++</OPTION> <OPTION value=9>Cold Fusion</OPTION> <OPTION 
+  value=7>Delphi</OPTION> <OPTION value=2>Java</OPTION> <OPTION 
+  value=14>Javascript</OPTION> <OPTION value=6>Perl</OPTION> <OPTION 
+  value=8>PHP</OPTION> <OPTION value=5>SQL</OPTION> <OPTION selected 
+  value=1>Visual Basic</OPTION></SELECT> <LABEL>Search Term…</LABEL> <INPUT 
+class=text type=text name=txtCriteria><BUTTON type=submit>Search</BUTTON> 
+</FIELDSET> </FORM><IFRAME vspace=0 height=1 marginHeight=0 
+src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ShowAd.htm" 
+frameBorder=0 width=1 marginWidth=0 scrolling=no hspace=0 
+bgcolor="white"></IFRAME></DIV><!-- / .box-wrap --></DIV><!-- / .box.box-search -->
+<DIV class=box>
+<CENTER><A 
+href="http://www.planet-source-code.com/vb/authentication/Login.asp?txtReturnURL=%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D42477%26lngWId%3D1">Login</A><BR></CENTER></DIV>
+<DIV class=box>
+<CENTER>
+<TABLE width=120 height=600>
+  <TBODY>
+  <TR>
+    <TD><!-- begin ad tag inlined-delayed (pscode/visualbasic;120x600,160x600) -->
+      <SCRIPT type=text/javascript>
+// declare the ad zone
+var NS_AdZone = "http://ad2.netshelter.net/adj/ns.pscode/visualbasic;ppos=atf;kw=;tile=3;dcopt=ist;sz=120x600,160x600;ord=";
+// NS code
+if(!NS_Ads){var NS_AdDivs=Array();var NS_AdZones=Array();var NS_Ads=1;};var NS_sz=NS_AdZone.substring(NS_AdZone.indexOf("sz=")+3);NS_sz=NS_sz.substring(0,NS_sz.indexOf(";"));if(NS_sz.indexOf(","))NS_sz=NS_sz.substring(0,NS_sz.indexOf(","));NS_sz=NS_sz.split("x");var NS_AdDiv="ns_ad"+NS_Ads;document.write('<div id="'+NS_AdDiv+'" style="min-width:'+NS_sz[0]+'px;min-height:'+NS_sz[1]+'px;"></div>');NS_AdDivs.push(NS_AdDiv);NS_AdZones.push(NS_AdZone);NS_Ads++;
+</SCRIPT>
+      <NOSCRIPT><A 
+      href="http://ad2.netshelter.net/jump/ns.pscode/visualbasic;ppos=atf;kw=;tile=3;sz=120x600,160x600;ord=123456789?" 
+      target=_blank><IMG border=0 alt="" 
+      src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/visualbasic;ppos=atf;kw=;tile=3;sz=120x600,160x600;ord=123456789;ctx=noscript.gif"></A> 
+      </NOSCRIPT><!-- end ad tag --></TD></TR></TBODY></TABLE></CENTER></DIV>
+<DIV class="box box-latestpostings"><A name=scrollingCode></A>
+<H3>Latest postings for Visual Basic.</H3>
+<DIV class=box-wrap>
+<DIV class=marquee-wrapper>
+<DIV class=marquee-topmask></DIV>
+<DIV class=marquee-botmask></DIV>
+<DIV class=marquee-postings>
+<MARQUEE direction=up height=262 behavior=scroll width=180 scrollAmount=1 
+scrollDelay=60>
+<DIV class=newsticker>
+<UL>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121213119361244.GIF" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74638&amp;lngWId=1" 
+  target=_blank>generate coder builder</A></H5>
+  <P class=meta>By sara xips on 12/13 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121213119361244.GIF" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121212758178338.JPG" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74637&amp;lngWId=1" 
+  target=_blank>Poker Frenzy</A></H5>
+  <P class=meta>By nabeel hosny on 12/12 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121212758178338.JPG" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121212527221577.jpg" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74636&amp;lngWId=1" 
+  target=_blank>Hand Cursor</A></H5>
+  <P class=meta>By Agustin Rodriguez on 12/12 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121212527221577.jpg" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121210359382511.JPG" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74635&amp;lngWId=1" 
+  target=_blank>Attendance_Mgt_ System</A></H5>
+  <P class=meta>By BINU NARAYANAN NELLIYAMPATHI on 12/10 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121210359382511.JPG" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC2012129620401347.jpg" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74634&amp;lngWId=1" 
+  target=_blank>speciallabels</A></H5>
+  <P class=meta>By Frank Donckers on 12/10 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC2012129620401347.jpg" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74632&amp;lngWId=1" 
+  target=_blank>A Really Simple Snake Program</A></H5>
+  <P class=meta>By Phillip Ponchot on 12/7 </P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/refresh.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74186&amp;lngWId=1" 
+  target=_blank>Tri-State CheckBox</A></H5>
+  <P class=meta>By Bonnie West on 12/6 </P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/refresh.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74588&amp;lngWId=1" 
+  target=_blank>Smallest but fastest GUID generator function (using 
+API)</A></H5>
+  <P class=meta>By Bonnie West on 12/6 </P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74631&amp;lngWId=1" 
+  target=_blank>lottocool</A></H5>
+  <P class=meta>By arvin wongsari wong on 12/6 </P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/refresh.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=73971&amp;lngWId=1" 
+  target=_blank>Program Tugas Aplikasi Aplikasi Penggajian Mekanik</A></H5>
+  <P class=meta>By arvin wongsari wong on 12/6 </P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC2012125175329451.gif" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74630&amp;lngWId=1" 
+  target=_blank>Shell &amp; Wait</A></H5>
+  <P class=meta>By Bonnie West on 12/6 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC2012125175329451.gif" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74629&amp;lngWId=1" 
+  target=_blank>Function Wait (non-freezing &amp; non-CPU-intensi ve)</A></H5>
+  <P class=meta>By Bonnie West on 12/6 </P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121251621256393.gif" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/refresh.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74292&amp;lngWId=1" 
+  target=_blank>clsInitCommCtrl sEx.cls</A></H5>
+  <P class=meta>By Bonnie West on 12/6 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121251621256393.gif" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC201222233587030.gif" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/refresh.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74256&amp;lngWId=1" 
+  target=_blank>OpenFileLocatio n vbs+vbp</A></H5>
+  <P class=meta>By Bonnie West on 12/6 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC201222233587030.gif" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121254103260.JPG" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74628&amp;lngWId=1" 
+  target=_blank>Space Invaders</A></H5>
+  <P class=meta>By nabeel hosny on 12/6 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121254103260.JPG" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC201212215243309.JPG" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74626&amp;lngWId=1" 
+  target=_blank>Slalom Ski</A></H5>
+  <P class=meta>By nabeel hosny on 12/3 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC201212215243309.JPG" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121181936364081.jpg" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/refresh.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74613&amp;lngWId=1" 
+  target=_blank>Email Client Program</A></H5>
+  <P class=meta>By J.A. Coutts on 12/3 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121181936364081.jpg" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121128022192419.JPG" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74625&amp;lngWId=1" 
+  target=_blank>Ski Man</A></H5>
+  <P class=meta>By nabeel hosny on 11/29 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121128022192419.JPG" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC2012112712901899.jpg" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74624&amp;lngWId=1" 
+  target=_blank>Graphical listbox</A></H5>
+  <P class=meta>By Ivan Enriquez on 11/29 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC2012112712901899.jpg" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74623&amp;lngWId=1" 
+  target=_blank>Kalman Filter Demo</A></H5>
+  <P class=meta>By IGutYa on 11/27 </P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC2012111812229968.JPG" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74621&amp;lngWId=1" 
+  target=_blank>Simple Diary AKB48</A></H5>
+  <P class=meta>By Christian Susanto on 11/19 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC2012111812229968.JPG" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC201211181145532400.JPG" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74620&amp;lngWId=1" 
+  target=_blank>Diary AKB48</A></H5>
+  <P class=meta>By Christian Susanto on 11/19 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC201211181145532400.JPG" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC2012111791824815.JPG" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74619&amp;lngWId=1" 
+  target=_blank>ADF.LY Robot (Make Money Online Now)</A></H5>
+  <P class=meta>By Stanley Kiruri on 11/19 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC2012111791824815.JPG" 
+  target=_blank>Screen Shot</A>)</P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74618&amp;lngWId=1" 
+  target=_blank>Kedai V3.1.1 Aplikasi Pembukuan Sederhana</A></H5>
+  <P class=meta>By madlock on 11/19 </P></DIV></LI>
+  <LI>
+  <DIV class=icons><A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121115119166854.JPG" 
+  target=_blank><IMG border=0 alt="Click here to see a screenshot of this code!" 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/ScreenShotIcon.gif"></A><A 
+  href="javascript:ShowPopupWindowXYWithScrollbars('/vb/misc/NewUpdateIconExplanation.asp',200,300)"><IMG 
+  border=0 
+  src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/add2.png" 
+  width=16 height=16></A></DIV>
+  <DIV class=contents>
+  <H5><A 
+  href="http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=74617&amp;lngWId=1" 
+  target=_blank>MIDI Controller for Behringer DSP1000</A></H5>
+  <P class=meta>By Jose Maria Estremar on 11/19 
+  <P class=screenshot>(<A 
+  href="http://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC20121115119166854.JPG" 
+  target=_blank>Screen 
+Shot</A>)</P></DIV></LI></UL></DIV><!-- / .newsticker --></MARQUEE></DIV><!-- / .marquee-postings --></DIV><!-- / .marquee-wrapper -->
+<DIV class=call-to-action>
+<P>Click here to <A 
+href="http://www.planet-source-code.com/vb/LinkToUs/default.asp?lngWId=1#NewCodeTicker">put 
+this ticker<BR>on your site!</A></P></DIV><!-- / .call-to-action -->
+<DIV class=add-to-active-desktop><A class=button 
+href="http://www.planet-source-code.com/vb/LinkToUs/default.asp?lngWId=1#NewCodeTicker">Add 
+to Active Desktop</A> 
+<P><A 
+href="http://www.planet-source-code.com/vb/LinkToUs/default.asp?lngWId=1#NewCodeTicker">Add 
+this ticker to your 
+desktop!</A></P></DIV><!-- / .add-to-active-desktop --></DIV><!-- / .box-wrap --></DIV><!-- / .box.box-latestpostings -->
+<DIV class="box box-dailyemail">
+<H3>Daily Code Email</H3>
+<P>Click here to join the<BR><A 
+href="http://www.planet-source-code.com/vb/CodeOfTheDay/signup.asp?lngWId=1">'Code 
+of the Day' mailing list</A>!</P></DIV><!-- / .box.box-dailyemail -->
+<DIV class=box><BR>
+<H3>This Site on CD</H3>
+<CENTER>
+<TABLE border=0 width="80%">
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=63><A 
+      href="http://www.planet-source-code.com/vb/CD/PscCd.asp?lngWId=1"><IMG 
+      border=0 
+      src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/PscCd.gif" 
+      width=63 height=50></A> </TD>
+    <TD vAlign=top><FONT size=1><A 
+      href="http://www.exhedra.com/exhedra/PlanetSourceCode/CD.aspx" 
+      target=_blank>Over 7,000 submissions on a super fast CD</A>! 
+  </FONT></TD></TR></TBODY></TABLE></CENTER><BR></DIV>
+<DIV class=box>
+<H3>Get Paid To Code</H3>
+<CENTER>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="80%">
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=63><A 
+      href="http://www.vworker.com/RentACoder/DotNet/SoftwareCoders/HowItWorks.aspx" 
+      target=_blank><IMG border=0 
+      src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/StackOfCoins1.gif" 
+      width=63 height=50></A></FONT> </TD>
+    <TD><FONT size=1><A 
+      href="http://www.vworker.com/RentACoder/DotNet/SoftwareCoders/HowItWorks.aspx" 
+      target=_blank>Now taking registrations on Rent a Coder</A>! 
+  </FONT></TD></TR></TBODY></TABLE></CENTER></DIV><!-- / .box--></DIV><!-- / .sidebar --></SPAN></DIV><!-- / .wrapper3 --></DIV><!-- / .wrapper2 --></DIV><!-- / .wrapper1 --></DIV><!-- / .container -->
+<HR>
+
+<DIV class=footer>
+<DIV class=footer-in>
+<DIV class=container>
+<DIV class=box-wrapper>
+<DIV class=box>
+<DIV class=secondary-navigation>
+<UL>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/misc/OpenLetterFromPSCModerators.asp?lngWId=1">Open 
+  letter from moderators</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/about/AboutTheSiteAndAuthor.asp?lngWId=1">About 
+  the site</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/feedback/feedback.asp?lngWId=1">Feedback</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/LinkToUs/default.asp?lngWId=1">Link 
+  to the Site</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/about/Awards.asp?lngWId=1">Awards</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/advertisement/scripts/rates.asp?lngWId=1">Advertising</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/scripts/privacy.asp?lngWId=1">Privacy</A></LI></UL></DIV><!-- / .secondary-navigation -->
+<DIV class=footersplit>
+<DIV class=left-col>
+<DIV class=promo>
+<SCRIPT type=text/javascript><!--
+google_ad_client = "pub-5277510158940819";
+google_ad_width = 336;
+google_ad_height = 280;
+google_ad_format = "336x280_as";
+google_ad_type = "text_image";
+//2007-05-18: PlanetSourceCode
+google_ad_channel = "6146776907";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "000080";
+google_color_text = "000000";
+google_color_url = "000080";
+//-->
+</SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/show_ads.js">
+</SCRIPT>
+</DIV><!-- / .promo --></DIV><!-- / .left-col -->
+<DIV class="right-col site-map">
+<DIV class=site-map-1>
+<H4>Code/Articles</H4>
+<UL>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/scripts/BrowseCategoryOrSearchResults.asp?grpCategories=-1&amp;optSort=DateDescending&amp;txtMaxNumberOfEntriesPerPage=10&amp;blnNewestCode=TRUE&amp;blnResetAllVariables=TRUE&amp;lngWId=1">Newest</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/scripts/BrowseAllCategories.asp?lngWId=1">Browse 
+  categories</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/scripts/search.asp?lngWId=1">Search</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/authors/determine_author_type.asp?lngWId=1">Upload 
+  code / articles</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/misc/OpenLetterFromPSCModerators.asp?lngWId=1">Open 
+  letter from moderators</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/Tutorial/default.asp?lngWId=1">Articles 
+  &amp; tutorials</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/Bookstore/default.asp?lngWId=1">Recommended 
+  reading</A></LI></UL>
+<H4>Top Code</H4>
+<UL>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/contest/ContestInfo.asp?lngWId=1">Coding 
+  contest</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/contest/ContestAndLeaderBoard.asp?lngWId=1">Coding 
+  contest leader board</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/scripts/BrowseCategoryOrSearchResults.asp?grpCategories=-1&amp;txtMaxNumberOfEntriesPerPage=10&amp;blnTopCode=True&amp;blnResetAllVariables=TRUE&amp;lngWId=1">Coding 
+  contest 'All-Time Hall of Fame'</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/CodeOfTheDay/signup.asp?lngWId=1">Code 
+  of the day newsletter</A></LI></UL></DIV><!-- / .site-map-1 -->
+<DIV class=site-map-2>
+<H4>Community</H4>
+<UL>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/discussion/default.asp?lngWId=1">Ask 
+  a pro discussion forum</A></LI>
+  <LI><A 
+  href="http://www.vworker.com/RentACoder/DotNet/misc/Games.aspx?lngWId=1">Games</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/CodeOfTheDay/signup.asp?lngWId=1">Code 
+  of the day newsletter</A></LI></UL>
+<H4>Jobs</H4>
+<UL>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/jobs/SearchJobs.asp?lngWId=1">Search 
+  for a job</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/jobs/PostJob.asp?lngWId=1">Post a 
+  job</A></LI></UL>
+<H4>Other</H4>
+<UL>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/authentication/MyPlanetSourceCode/CustomizeInfo.asp?lngWId=1">My 
+  profile</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/LinkToUs/default.asp?lngWId=1">How 
+  to link to us</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/about/Awards.asp?lngWId=1">Awards/Reviews/Raves!</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/advertisement/scripts/rates.asp?lngWId=1">Advertising/Media 
+  kit</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/feedback/feedback.asp?lngWId=1">Feedback</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/about/AboutTheSiteAndAuthor.asp?lngWId=1">About 
+  the site</A></LI></UL>
+<H4>Goto…</H4>
+<UL>
+  <LI><A href="http://www.planet-source-code.com/vb/default.asp?lngWId=1">Visual 
+  Basic home</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/PlanetSourceCode/default.asp?lngWId=-1">Site 
+  home</A></LI>
+  <LI><A 
+  href="http://www.planet-source-code.com/vb/scripts/OtherLinks.asp?lngWId=1">Other 
+  sites</A></LI></UL></DIV><!-- / .site-map-2 --></DIV></DIV><!-- / .footersplit -->
+<DIV class=copyright>
+<P>Copyright© 1997-2012 by <A href="http://www.exhedra.com/" 
+target=_blank>Exhedra Solutions, Inc.</A> All Rights Reserved.</P></DIV><!-- / .copyright --></DIV><!-- / .box --></DIV><!-- / .box-wrapper -->
+<DIV class=footernote>
+<P>By using this site you agree to its <A class=a2 
+href="http://www.planet-source-code.com/vb/scripts/TermsAndConditions.asp?lngWId=1">Terms 
+and Conditions</A>.<!/p> <!p>Planet Source Code™ and the phrase "Dream It. Code 
+It"™ are trademarks of <A href="http://www.exhedra.com/">Exhedra Solutions, 
+Inc.</A><!/p> </P></DIV><!-- / .footernote --></DIV><!-- / .container --><!-- / .footer-in --></DIV><!-- / .footer --></DIV><!-- / .page --></DIV>
+<SCRIPT type=text/javascript>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-216629-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</SCRIPT>
+<!-- start Vibrant Media IntelliTXT script section -->
+<SCRIPT type=text/javascript 
+src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/front.asp"></SCRIPT>
+<!-- end Vibrant Media IntelliTXT script section -->
+<SCRIPT type=text/javascript 
+src="Matrix%20Operations%20Library%20by%20Anas%20S_%20A_files/planet-source-code.com.js"></SCRIPT>
+<!--  START NetShelter delayed loading tags -->
+<SCRIPT type=text/javascript>
+// function moveAdDiv(from, to)
+// moves the SCRIPT child node from the source DIV to the destination DIV 
+// then shows it 
+function moveAdDiv(from, to) {
+                var phDiv = document.getElementById(from);
+                var adDiv = document.getElementById(to);
+                for (index = phDiv.childNodes.length - 1; index >= 0; index--)
+                {
+                                var element = phDiv.childNodes[index];
+                                if ((element.nodeName == 'SCRIPT') || (element.nodeName == 'NOSCRIPT'))
+                                                phDiv.removeChild(element);
+                }
+                phDiv.parentNode.removeChild(phDiv);
+                adDiv.parentNode.replaceChild(phDiv, adDiv);
+                phDiv.style.display = 'block';
+}
+ord = window.ord || Math.floor(Math.random()*1E16);
+var NS_i=0;
+</SCRIPT>
+
+<DIV style="DISPLAY: none" id=ns_ad1Ph>
+<SCRIPT type=text/javascript>if (NS_AdDivs.length>NS_i) document.write(unescape('%3Cscript type="text/javascript" src="' + NS_AdZones[NS_i] + ord + '?"%3E%3C/script%3E'));</SCRIPT>
+</DIV>
+<SCRIPT type=text/javascript>if (NS_AdDivs.length>NS_i) { document.write(unescape('%3Cscript type="text/javascript"%3EmoveAdDiv(\'' + NS_AdDivs[NS_i] + 'Ph\', \'' + NS_AdDivs[NS_i] + '\');%3C/script%3E'));NS_i++; }</SCRIPT>
+
+<DIV style="DISPLAY: none" id=ns_ad2Ph>
+<SCRIPT type=text/javascript>if (NS_AdDivs.length>NS_i) document.write(unescape('%3Cscript type="text/javascript" src="' + NS_AdZones[NS_i] + ord + '?"%3E%3C/script%3E'));</SCRIPT>
+</DIV>
+<SCRIPT type=text/javascript>if (NS_AdDivs.length>NS_i) { document.write(unescape('%3Cscript type="text/javascript"%3EmoveAdDiv(\'' + NS_AdDivs[NS_i] + 'Ph\', \'' + NS_AdDivs[NS_i] + '\');%3C/script%3E'));NS_i++; }</SCRIPT>
+
+<DIV style="DISPLAY: none" id=ns_ad3Ph>
+<SCRIPT type=text/javascript>if (NS_AdDivs.length>NS_i) document.write(unescape('%3Cscript type="text/javascript" src="' + NS_AdZones[NS_i] + ord + '?"%3E%3C/script%3E'));</SCRIPT>
+</DIV>
+<SCRIPT type=text/javascript>if (NS_AdDivs.length>NS_i) { document.write(unescape('%3Cscript type="text/javascript"%3EmoveAdDiv(\'' + NS_AdDivs[NS_i] + 'Ph\', \'' + NS_AdDivs[NS_i] + '\');%3C/script%3E'));NS_i++; }</SCRIPT>
+
+<DIV style="DISPLAY: none" id=ns_ad4Ph>
+<SCRIPT type=text/javascript>if (NS_AdDivs.length>NS_i) document.write(unescape('%3Cscript type="text/javascript" src="' + NS_AdZones[NS_i] + ord + '?"%3E%3C/script%3E'));</SCRIPT>
+</DIV>
+<SCRIPT type=text/javascript>if (NS_AdDivs.length>NS_i) { document.write(unescape('%3Cscript type="text/javascript"%3EmoveAdDiv(\'' + NS_AdDivs[NS_i] + 'Ph\', \'' + NS_AdDivs[NS_i] + '\');%3C/script%3E'));NS_i++; }</SCRIPT>
+
+<DIV style="DISPLAY: none" id=ns_ad5Ph>
+<SCRIPT type=text/javascript>if (NS_AdDivs.length>NS_i) document.write(unescape('%3Cscript type="text/javascript" src="' + NS_AdZones[NS_i] + ord + '?"%3E%3C/script%3E'));</SCRIPT>
+</DIV>
+<SCRIPT type=text/javascript>if (NS_AdDivs.length>NS_i) { document.write(unescape('%3Cscript type="text/javascript"%3EmoveAdDiv(\'' + NS_AdDivs[NS_i] + 'Ph\', \'' + NS_AdDivs[NS_i] + '\');%3C/script%3E'));NS_i++; }</SCRIPT>
+
+<DIV style="DISPLAY: none" id=ns_ad6Ph>
+<SCRIPT type=text/javascript>if (NS_AdDivs.length>NS_i) document.write(unescape('%3Cscript type="text/javascript" src="' + NS_AdZones[NS_i] + ord + '?"%3E%3C/script%3E'));</SCRIPT>
+</DIV>
+<SCRIPT type=text/javascript>if (NS_AdDivs.length>NS_i) { document.write(unescape('%3Cscript type="text/javascript"%3EmoveAdDiv(\'' + NS_AdDivs[NS_i] + 'Ph\', \'' + NS_AdDivs[NS_i] + '\');%3C/script%3E'));NS_i++; }</SCRIPT>
+<!--  END NetShelter delayed loading tags --><!-- begin Partner: Exhedra Solutions, Inc., Integration: EXHEDRASOLUTIONSINC-FIXED_BOTTOM, Size: fixed_bottom-->
+<SCRIPT type=text/javascript>document.write('<script type="text/javascript" src="http://ads.saymedia.com/ai01539105c02b970b0167619f4ff8970b.js?ord='+ Math.random() + '"></sc'+'ript>')</SCRIPT>
+<!-- end --></CENTER></BODY></HTML>
