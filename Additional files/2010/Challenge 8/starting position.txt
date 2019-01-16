@@ -1,0 +1,52 @@
+Initial starting position
+8 of diamonds
+9 of diamonds
+3 of hearts
+K of diamonds
+A of Hearts
+J of clubs
+5 of hearts
+6 of hearts
+7 of hearts
+8 of hearts
+9 of hearts
+10 of hearts
+6 of clubs
+K of hearts
+4 of diamonds
+Q of diamonds
+2 of spades
+10 of clubs
+A of diamonds
+5 of spades
+10 of spades
+Joker a
+King of clubs
+4 of spades
+7 of spades
+K of spades
+Q of clubs
+9 of spades
+J of hearts
+Q of hearts
+2 of hearts
+7 of clubs
+3 of spades
+6 of spades
+8 of clubs
+Q of spades
+?4?4?45 of diamonds
+?
+?
+?
+Joker b
+?
+?
+?
+?
+?
+?
+J of diamonds
+?
+7 of Diamonds
+?
